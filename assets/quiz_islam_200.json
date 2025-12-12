@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "difficulty": "Facile",
     "question": "Combien de piliers compte l’islam ?",
     "answers": [
       "3",
@@ -13,42 +14,20 @@
   },
   {
     "id": 2,
+    "difficulty": "Facile",
     "question": "Quel est le premier pilier de l’islam ?",
     "answers": [
-      "La prière (salat)",
-      "Le jeûne (sawm)",
       "La zakat",
-      "La shahada"
+      "La shahada",
+      "Le jeûne",
+      "Le hajj"
     ],
-    "correctIndex": 3,
+    "correctIndex": 1,
     "explanation": "La shahada est l’attestation de foi."
   },
   {
     "id": 3,
-    "question": "Quel est le livre révélé à Muhammad ﷺ ?",
-    "answers": [
-      "La Torah",
-      "L’Évangile",
-      "Le Coran",
-      "Le Zabour"
-    ],
-    "correctIndex": 2,
-    "explanation": "Le Coran est la révélation finale."
-  },
-  {
-    "id": 4,
-    "question": "En quelle langue le Coran a-t-il été révélé ?",
-    "answers": [
-      "Hébreu",
-      "Arabe",
-      "Grec",
-      "Latin"
-    ],
-    "correctIndex": 1,
-    "explanation": "Le Coran a été révélé en arabe."
-  },
-  {
-    "id": 5,
+    "difficulty": "Facile",
     "question": "Combien de prières obligatoires par jour ?",
     "answers": [
       "3",
@@ -60,103 +39,21 @@
     "explanation": "Il y a cinq prières obligatoires quotidiennes."
   },
   {
-    "id": 6,
-    "question": "Quelle est la prière de l’aube ?",
-    "answers": [
-      "Dhuhr",
-      "Asr",
-      "Fajr",
-      "Isha"
-    ],
-    "correctIndex": 2,
-    "explanation": "Fajr se prie à l’aube."
-  },
-  {
-    "id": 7,
-    "question": "Quelle est la prière de midi ?",
-    "answers": [
-      "Fajr",
-      "Dhuhr",
-      "Maghrib",
-      "Isha"
-    ],
-    "correctIndex": 1,
-    "explanation": "Dhuhr se prie en milieu de journée."
-  },
-  {
-    "id": 8,
-    "question": "Quelle est la prière de l’après-midi ?",
-    "answers": [
-      "Asr",
-      "Maghrib",
-      "Isha",
-      "Witr"
-    ],
-    "correctIndex": 0,
-    "explanation": "Asr se prie l’après-midi."
-  },
-  {
-    "id": 9,
-    "question": "Quelle est la prière du coucher du soleil ?",
-    "answers": [
-      "Fajr",
-      "Dhuhr",
-      "Maghrib",
-      "Isha"
-    ],
-    "correctIndex": 2,
-    "explanation": "Maghrib se prie au coucher du soleil."
-  },
-  {
-    "id": 10,
-    "question": "Quelle est la prière de la nuit ?",
-    "answers": [
-      "Duha",
-      "Isha",
-      "Asr",
-      "Jumu'a"
-    ],
-    "correctIndex": 1,
-    "explanation": "Isha se prie le soir."
-  },
-  {
-    "id": 11,
+    "id": 4,
+    "difficulty": "Facile",
     "question": "Quel est le mois du jeûne obligatoire ?",
     "answers": [
-      "Muharram",
+      "Rajab",
       "Ramadan",
       "Safar",
-      "Dhul Qa'da"
+      "Muharram"
     ],
     "correctIndex": 1,
     "explanation": "Le jeûne obligatoire est celui de Ramadan."
   },
   {
-    "id": 12,
-    "question": "Comment s’appelle l’aumône obligatoire ?",
-    "answers": [
-      "Sadaqa",
-      "Zakat",
-      "Waqf",
-      "Fidyah"
-    ],
-    "correctIndex": 1,
-    "explanation": "La zakat est un pilier de l’islam."
-  },
-  {
-    "id": 13,
-    "question": "Quel est le pèlerinage obligatoire si on en a les moyens ?",
-    "answers": [
-      "Omra",
-      "Hajj",
-      "I'tikaf",
-      "Ziyarah"
-    ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj est obligatoire si on en a la capacité."
-  },
-  {
-    "id": 14,
+    "id": 5,
+    "difficulty": "Facile",
     "question": "Vers quelle direction les musulmans prient-ils ?",
     "answers": [
       "Médine",
@@ -168,11 +65,38 @@
     "explanation": "La qibla est la Kaaba à La Mecque."
   },
   {
-    "id": 15,
+    "id": 6,
+    "difficulty": "Facile",
+    "question": "Quel est le Livre révélé à Muhammad ﷺ ?",
+    "answers": [
+      "La Torah",
+      "L’Évangile",
+      "Le Coran",
+      "Le Zabour"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le Coran est la révélation finale."
+  },
+  {
+    "id": 7,
+    "difficulty": "Facile",
+    "question": "En quelle langue le Coran a-t-il été révélé ?",
+    "answers": [
+      "Arabe",
+      "Hébreu",
+      "Latin",
+      "Grec"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Coran a été révélé en arabe."
+  },
+  {
+    "id": 8,
+    "difficulty": "Facile",
     "question": "Combien de sourates compte le Coran ?",
     "answers": [
-      "100",
       "110",
+      "112",
       "114",
       "120"
     ],
@@ -180,151 +104,125 @@
     "explanation": "Le Coran contient 114 sourates."
   },
   {
-    "id": 16,
+    "id": 9,
+    "difficulty": "Facile",
     "question": "Quelle sourate ouvre le Coran ?",
     "answers": [
-      "Al-Baqara",
       "Al-Fatiha",
-      "Al-Ikhlas",
-      "An-Nas"
+      "Al-Baqara",
+      "An-Nas",
+      "Al-Ikhlas"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Al-Fatiha est la sourate d’ouverture."
   },
   {
-    "id": 17,
+    "id": 10,
+    "difficulty": "Facile",
     "question": "Quelle est la dernière sourate du Coran ?",
     "answers": [
       "Al-Falaq",
-      "Al-Ikhlas",
       "An-Nas",
-      "Al-Kawthar"
+      "Al-Kawthar",
+      "Al-Ikhlas"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "An-Nas est la dernière sourate."
   },
   {
-    "id": 18,
-    "question": "Quel ange a transmis la révélation à Muhammad ﷺ ?",
+    "id": 11,
+    "difficulty": "Facile",
+    "question": "Comment s’appelle l’aumône obligatoire ?",
     "answers": [
-      "Mikail",
-      "Jibril",
-      "Israfil",
-      "Malik"
+      "Sadaqa",
+      "Zakat",
+      "Fidyah",
+      "Waqf"
     ],
     "correctIndex": 1,
-    "explanation": "Jibril est l’ange de la révélation."
+    "explanation": "La zakat est une aumône obligatoire (pilier)."
   },
   {
-    "id": 19,
-    "question": "Combien de piliers de la foi (iman) ?",
+    "id": 12,
+    "difficulty": "Facile",
+    "question": "Quel est le pèlerinage obligatoire si on en a les moyens ?",
     "answers": [
-      "4",
-      "5",
-      "6",
-      "7"
-    ],
-    "correctIndex": 2,
-    "explanation": "La foi comporte six piliers."
-  },
-  {
-    "id": 20,
-    "question": "Croire aux anges fait partie de…",
-    "answers": [
-      "L’islam",
-      "L’iman",
-      "La zakat",
-      "Le Hajj"
+      "Omra",
+      "Hajj",
+      "I'tikaf",
+      "Ziyarah"
     ],
     "correctIndex": 1,
-    "explanation": "Croire aux anges est un pilier de la foi."
+    "explanation": "Le Hajj est obligatoire si on en a la capacité."
   },
   {
-    "id": 21,
-    "question": "Croire aux Livres révélés fait partie de…",
+    "id": 13,
+    "difficulty": "Facile",
+    "question": "Quel est le salut islamique ?",
     "answers": [
-      "L’iman",
-      "La salat",
-      "Le sawm",
-      "La zakat"
-    ],
-    "correctIndex": 0,
-    "explanation": "Les Livres révélés font partie de la foi."
-  },
-  {
-    "id": 22,
-    "question": "Croire aux prophètes fait partie de…",
-    "answers": [
-      "La sunna",
-      "L’iman",
-      "La omra",
-      "Le fiqh"
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
     ],
     "correctIndex": 1,
-    "explanation": "Les prophètes font partie de la foi."
+    "explanation": "Le salut est “As-Salamu alaykum”."
   },
   {
-    "id": 23,
-    "question": "Croire au Jour dernier fait partie de…",
+    "id": 14,
+    "difficulty": "Facile",
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
     "answers": [
-      "L’iman",
-      "La salat",
-      "Le wudu",
-      "La hijra"
-    ],
-    "correctIndex": 0,
-    "explanation": "Le Jour dernier est un pilier de la foi."
-  },
-  {
-    "id": 24,
-    "question": "Croire au destin (qadar) fait partie de…",
-    "answers": [
-      "La zakat",
-      "L’iman",
-      "Le hajj",
-      "Le tawaf"
+      "Merci",
+      "Wa alaykum as-salam",
+      "Amin",
+      "À bientôt"
     ],
     "correctIndex": 1,
-    "explanation": "Le destin est un pilier de la foi."
+    "explanation": "On répond “Wa alaykum as-salam”."
   },
   {
-    "id": 25,
+    "id": 15,
+    "difficulty": "Facile",
     "question": "Que signifie Islam (sens général) ?",
     "answers": [
-      "Richesse",
       "Soumission",
+      "Richesse",
       "Tristesse",
       "Victoire"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Islam signifie soumission à Allah."
   },
   {
-    "id": 26,
+    "id": 16,
+    "difficulty": "Facile",
     "question": "Que signifie Iman ?",
     "answers": [
-      "Foi",
-      "Peur",
       "Voyage",
-      "Jeûne"
+      "Foi",
+      "Jeûne",
+      "Peur"
     ],
-    "correctIndex": 0,
+    "correctIndex": 1,
     "explanation": "Iman signifie la foi."
   },
   {
-    "id": 27,
-    "question": "Que signifie Ihsan ?",
+    "id": 17,
+    "difficulty": "Facile",
+    "question": "Que signifie Tawhid ?",
     "answers": [
-      "Excellence dans l’adoration",
-      "Argent",
+      "Unicité d’Allah",
       "Commerce",
-      "Langue arabe"
+      "Langue",
+      "Peine"
     ],
     "correctIndex": 0,
-    "explanation": "Ihsan = adorer Allah avec excellence."
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
   },
   {
-    "id": 28,
+    "id": 18,
+    "difficulty": "Facile",
     "question": "Quel est le plus grave péché en islam ?",
     "answers": [
       "Le vol",
@@ -336,44 +234,178 @@
     "explanation": "Le shirk est le péché le plus grave."
   },
   {
-    "id": 29,
+    "id": 19,
+    "difficulty": "Facile",
     "question": "Que signifie shirk ?",
     "answers": [
-      "Charité",
       "Association à Allah",
+      "Charité",
       "Prière",
       "Jeûne"
     ],
-    "correctIndex": 1,
+    "correctIndex": 0,
     "explanation": "Shirk = associer à Allah dans l’adoration."
   },
   {
-    "id": 30,
-    "question": "Quel est le nom de la migration de La Mecque à Médine ?",
+    "id": 20,
+    "difficulty": "Facile",
+    "question": "Quel ange a transmis la révélation à Muhammad ﷺ ?",
     "answers": [
-      "Hijra",
-      "Omra",
-      "Tawaf",
-      "Sa’i"
+      "Jibril",
+      "Mikail",
+      "Israfil",
+      "Malik"
     ],
     "correctIndex": 0,
-    "explanation": "La migration s’appelle la Hijra."
+    "explanation": "Jibril est l’ange de la révélation."
+  },
+  {
+    "id": 21,
+    "difficulty": "Facile",
+    "question": "Combien de piliers de la foi (iman) ?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "La foi comporte six piliers."
+  },
+  {
+    "id": 22,
+    "difficulty": "Facile",
+    "question": "Croire au Jour dernier fait partie de…",
+    "answers": [
+      "L’iman",
+      "La salat",
+      "Le wudu",
+      "La hijra"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Jour dernier est un pilier de la foi."
+  },
+  {
+    "id": 23,
+    "difficulty": "Facile",
+    "question": "Croire aux anges fait partie de…",
+    "answers": [
+      "L’iman",
+      "Le hajj",
+      "La zakat",
+      "La omra"
+    ],
+    "correctIndex": 0,
+    "explanation": "Croire aux anges est un pilier de la foi."
+  },
+  {
+    "id": 24,
+    "difficulty": "Facile",
+    "question": "Quelle est la prière de l’aube ?",
+    "answers": [
+      "Fajr",
+      "Dhuhr",
+      "Asr",
+      "Isha"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr se prie à l’aube."
+  },
+  {
+    "id": 25,
+    "difficulty": "Facile",
+    "question": "Quelle est la prière de midi ?",
+    "answers": [
+      "Fajr",
+      "Dhuhr",
+      "Maghrib",
+      "Isha"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dhuhr se prie en milieu de journée."
+  },
+  {
+    "id": 26,
+    "difficulty": "Facile",
+    "question": "Quelle est la prière de l’après-midi ?",
+    "answers": [
+      "Asr",
+      "Maghrib",
+      "Isha",
+      "Witr"
+    ],
+    "correctIndex": 0,
+    "explanation": "Asr se prie l’après-midi."
+  },
+  {
+    "id": 27,
+    "difficulty": "Facile",
+    "question": "Quelle est la prière du coucher du soleil ?",
+    "answers": [
+      "Fajr",
+      "Dhuhr",
+      "Maghrib",
+      "Isha"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maghrib se prie au coucher du soleil."
+  },
+  {
+    "id": 28,
+    "difficulty": "Facile",
+    "question": "Quelle est la prière de la nuit ?",
+    "answers": [
+      "Duha",
+      "Isha",
+      "Asr",
+      "Jumu'a"
+    ],
+    "correctIndex": 1,
+    "explanation": "Isha se prie le soir."
+  },
+  {
+    "id": 29,
+    "difficulty": "Facile",
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 30,
+    "difficulty": "Facile",
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
   },
   {
     "id": 31,
-    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "difficulty": "Facile",
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
     "answers": [
       "2",
       "3",
       "4",
       "5"
     ],
-    "correctIndex": 0,
-    "explanation": "Fajr a 2 raka'at obligatoires."
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
   },
   {
     "id": 32,
-    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "difficulty": "Facile",
+    "question": "Combien de raka'at obligatoires pour Asr ?",
     "answers": [
       "2",
       "3",
@@ -381,11 +413,12 @@
       "5"
     ],
     "correctIndex": 2,
-    "explanation": "Dhuhr a 4 raka'at obligatoires."
+    "explanation": "Asr a 4 raka'at obligatoires."
   },
   {
     "id": 33,
-    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "difficulty": "Facile",
+    "question": "Combien de raka'at obligatoires pour Isha ?",
     "answers": [
       "2",
       "3",
@@ -393,2010 +426,2177 @@
       "5"
     ],
     "correctIndex": 2,
-    "explanation": "Asr a 4 raka'at obligatoires."
+    "explanation": "Isha a 4 raka'at obligatoires."
   },
   {
     "id": 34,
-    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "difficulty": "Facile",
+    "question": "Quel est le mois du Hajj ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
     ],
     "correctIndex": 1,
-    "explanation": "Maghrib a 3 raka'at obligatoires."
+    "explanation": "Le Hajj se fait en Dhul Hijja."
   },
   {
     "id": 35,
-    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "difficulty": "Facile",
+    "question": "Combien de tours fait-on au tawaf ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "5",
+      "6",
+      "7",
+      "8"
     ],
     "correctIndex": 2,
-    "explanation": "Isha a 4 raka'at obligatoires."
+    "explanation": "Le tawaf se fait en 7 tours."
   },
   {
     "id": 36,
-    "question": "Combien de tours fait-on au tawaf ?",
+    "difficulty": "Facile",
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
     ],
-    "correctIndex": 2,
-    "explanation": "Le tawaf se fait en 7 tours."
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
   },
   {
     "id": 37,
-    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "difficulty": "Facile",
+    "question": "Quelle est la prière du vendredi ?",
     "answers": [
-      "Sa’i",
-      "Jamrat",
-      "Ihram",
-      "Qunut"
+      "Salat al-Jumu'a",
+      "Salat al-Janaza",
+      "Salat al-Eid",
+      "Salat ad-Duha"
     ],
     "correctIndex": 0,
-    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+    "explanation": "La prière du vendredi est Jumu'a."
   },
   {
     "id": 38,
-    "question": "Quel est le mois du Hajj ?",
+    "difficulty": "Facile",
+    "question": "Quel est le lieu le plus sacré de l’islam ?",
     "answers": [
-      "Ramadan",
-      "Dhul Hijja",
-      "Safar",
-      "Rajab"
+      "Jérusalem",
+      "Médine",
+      "La Mecque",
+      "Damas"
     ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj se fait en Dhul Hijja."
+    "correctIndex": 2,
+    "explanation": "La Kaaba se trouve à La Mecque."
   },
   {
     "id": 39,
-    "question": "Quel est le salut islamique ?",
+    "difficulty": "Facile",
+    "question": "Qui est le dernier prophète ?",
     "answers": [
-      "Bonjour",
-      "As-Salamu alaykum",
-      "Salut",
-      "Coucou"
+      "Ibrahim",
+      "Moussa",
+      "Issa",
+      "Muhammad ﷺ"
     ],
-    "correctIndex": 1,
-    "explanation": "Le salut est “As-Salamu alaykum”."
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
   },
   {
     "id": 40,
-    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "difficulty": "Facile",
+    "question": "Quel prophète a reçu la Torah ?",
     "answers": [
-      "Merci",
-      "Wa alaykum as-salam",
-      "À bientôt",
-      "Amin"
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Nuh"
     ],
-    "correctIndex": 1,
-    "explanation": "On répond “Wa alaykum as-salam”."
+    "correctIndex": 0,
+    "explanation": "La Torah a été révélée à Moussa."
   },
   {
     "id": 41,
-    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "difficulty": "Facile",
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
     "answers": [
-      "2:255",
-      "1:1",
-      "112:1",
-      "114:1"
+      "Moussa",
+      "Issa",
+      "Ibrahim",
+      "Yunus"
     ],
-    "correctIndex": 0,
-    "explanation": "Ayat al-Kursi est le verset 2:255."
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
   },
   {
     "id": 42,
-    "question": "Quelle sourate est la plus longue ?",
+    "difficulty": "Facile",
+    "question": "Quel prophète a reçu le Zabour ?",
     "answers": [
-      "Al-Baqara",
-      "Al-Imran",
-      "An-Nisa",
-      "Al-A'raf"
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Lut"
     ],
     "correctIndex": 0,
-    "explanation": "Al-Baqara est la plus longue sourate."
+    "explanation": "Le Zabour a été donné à Dawud."
   },
   {
     "id": 43,
-    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "difficulty": "Facile",
+    "question": "Quel prophète est associé à l’arche ?",
     "answers": [
-      "Al-Fatiha",
-      "At-Tawba",
-      "An-Nas",
-      "Al-Fil"
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
     ],
-    "correctIndex": 1,
-    "explanation": "At-Tawba est l’exception connue."
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
   },
   {
     "id": 44,
-    "question": "Que signifie Tawhid ?",
+    "difficulty": "Facile",
+    "question": "Que signifie Sabr ?",
     "answers": [
-      "Unicité d’Allah",
-      "Commerce",
-      "Voyage",
-      "Peine"
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
     ],
     "correctIndex": 0,
-    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+    "explanation": "Sabr signifie patience."
   },
   {
     "id": 45,
-    "question": "Que signifie Taqwa ?",
+    "difficulty": "Facile",
+    "question": "Que signifie Ikhlas ?",
     "answers": [
-      "Piété / conscience d’Allah",
-      "Richesse",
-      "Guerre",
-      "Fatigue"
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
     ],
     "correctIndex": 0,
-    "explanation": "Taqwa = piété et conscience d’Allah."
+    "explanation": "Ikhlas = sincérité envers Allah."
   },
   {
     "id": 46,
-    "question": "Que signifie Sabr ?",
+    "difficulty": "Facile",
+    "question": "Que signifie Taqwa ?",
     "answers": [
-      "Patience",
-      "Colère",
-      "Envie",
-      "Oubli"
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
     ],
     "correctIndex": 0,
-    "explanation": "Sabr signifie patience."
+    "explanation": "Taqwa = piété et conscience d’Allah."
   },
   {
     "id": 47,
-    "question": "Que signifie Ikhlas ?",
+    "difficulty": "Facile",
+    "question": "Ayat al-Kursi correspond à quel verset ?",
     "answers": [
-      "Sincérité",
-      "Ruse",
-      "Peur",
-      "Bruit"
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
     ],
     "correctIndex": 0,
-    "explanation": "Ikhlas = sincérité envers Allah."
+    "explanation": "Ayat al-Kursi est le verset 2:255."
   },
   {
     "id": 48,
-    "question": "Quel est le dernier prophète ?",
+    "difficulty": "Facile",
+    "question": "Quelle sourate est la plus longue ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Muhammad ﷺ"
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
     ],
-    "correctIndex": 3,
-    "explanation": "Muhammad ﷺ est le dernier prophète."
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
   },
   {
     "id": 49,
-    "question": "Quel prophète a reçu la Torah ?",
+    "difficulty": "Facile",
+    "question": "Quelle sourate ne commence pas par la basmala ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Nuh"
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
     ],
     "correctIndex": 1,
-    "explanation": "La Torah a été révélée à Moussa."
+    "explanation": "At-Tawba est l’exception connue."
   },
   {
     "id": 50,
-    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "difficulty": "Facile",
+    "question": "Combien de piliers compte l’islam ?",
     "answers": [
-      "Moussa",
-      "Issa",
-      "Dawud",
-      "Ibrahim"
+      "3",
+      "4",
+      "5",
+      "6"
     ],
-    "correctIndex": 1,
-    "explanation": "L’Injil a été révélé à Issa."
+    "correctIndex": 2,
+    "explanation": "L’islam repose sur cinq piliers."
   },
   {
     "id": 51,
-    "question": "Quel prophète a reçu le Zabour ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Dawud",
-      "Yusuf",
-      "Nuh",
-      "Yunus"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Le Zabour a été donné à Dawud."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 52,
-    "question": "Quel prophète a construit l’arche ?",
+    "difficulty": "Moyen",
+    "question": "Comment s’appelle le bain rituel complet ?",
     "answers": [
-      "Nuh",
-      "Ibrahim",
-      "Moussa",
-      "Issa"
+      "Wudu",
+      "Ghusl",
+      "Tayammum",
+      "Adhan"
     ],
-    "correctIndex": 0,
-    "explanation": "Nuh a construit l’arche."
+    "correctIndex": 1,
+    "explanation": "Le bain rituel complet s’appelle le ghusl."
   },
   {
     "id": 53,
-    "question": "Quel prophète est connu pour sa patience ?",
+    "difficulty": "Moyen",
+    "question": "Quand utilise-t-on le tayammum ?",
     "answers": [
-      "Ayoub",
-      "Yusuf",
-      "Dawud",
-      "Lut"
+      "Quand l’eau est indisponible ou nuisible",
+      "Avant chaque repas",
+      "Après le sommeil",
+      "Après le travail"
     ],
     "correctIndex": 0,
-    "explanation": "Ayoub est un exemple de patience."
+    "explanation": "Tayammum = purification sèche quand l’eau manque/est nocive."
   },
   {
     "id": 54,
-    "question": "Quel est le mois du jeûne obligatoire ?",
+    "difficulty": "Moyen",
+    "question": "Quel appel annonce l’entrée de l’heure de prière ?",
     "answers": [
-      "Rajab",
-      "Chaaban",
-      "Ramadan",
-      "Dhul Hijja"
+      "Iqama",
+      "Adhan",
+      "Khutba",
+      "Dhikr"
     ],
-    "correctIndex": 2,
-    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+    "correctIndex": 1,
+    "explanation": "L’adhan est l’appel à la prière."
   },
   {
     "id": 55,
-    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "difficulty": "Moyen",
+    "question": "Quel terme désigne l’établissement de la prière juste avant de commencer ?",
     "answers": [
-      "Oui",
-      "Non",
-      "Toujours",
-      "Jamais"
+      "Adhan",
+      "Iqama",
+      "Du'a",
+      "Sujud"
     ],
     "correctIndex": 1,
-    "explanation": "Manger par oubli n’annule pas le jeûne."
+    "explanation": "L’iqama est faite juste avant de commencer."
   },
   {
     "id": 56,
-    "question": "Quelle est la prière du vendredi ?",
+    "difficulty": "Moyen",
+    "question": "Quel est le mois qui précède Ramadan ?",
     "answers": [
-      "Salat al-Jumu'a",
-      "Salat al-Janaza",
-      "Salat al-Eid",
-      "Salat ad-Duha"
+      "Shawwal",
+      "Sha'ban",
+      "Dhul Hijja",
+      "Safar"
     ],
-    "correctIndex": 0,
-    "explanation": "La prière du vendredi est Jumu'a."
+    "correctIndex": 1,
+    "explanation": "Sha'ban précède Ramadan."
   },
   {
     "id": 57,
-    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "difficulty": "Moyen",
+    "question": "Quel mois suit Ramadan ?",
     "answers": [
-      "Jérusalem",
-      "Médine",
-      "La Mecque",
-      "Damas"
+      "Shawwal",
+      "Rajab",
+      "Muharram",
+      "Rabi'"
     ],
-    "correctIndex": 2,
-    "explanation": "La Kaaba se trouve à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Shawwal vient après Ramadan."
   },
   {
     "id": 58,
-    "question": "Comment s’appelle la Kaaba ?",
+    "difficulty": "Moyen",
+    "question": "Comment s’appelle la prière nocturne fréquente en Ramadan ?",
     "answers": [
-      "Minbar",
-      "Kaaba",
-      "Mihrab",
-      "Safa"
+      "Tarawih",
+      "Duha",
+      "Istikhara",
+      "Kusuf"
     ],
-    "correctIndex": 1,
-    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+    "correctIndex": 0,
+    "explanation": "La prière de nuit en Ramadan est appelée tarawih."
   },
   {
     "id": 59,
-    "question": "Quel est le message central de l’islam ?",
+    "difficulty": "Moyen",
+    "question": "À quoi sert la zakat al-fitr ?",
     "answers": [
-      "Paix",
-      "Règles",
-      "Tawhid",
-      "Richesse"
+      "Purifier le jeûne et aider les nécessiteux",
+      "Financer le hajj",
+      "Payer la mosquée",
+      "Remplacer la prière"
     ],
-    "correctIndex": 2,
-    "explanation": "Le cœur du message est l’unicité d’Allah."
+    "correctIndex": 0,
+    "explanation": "Zakat al-fitr est liée à la fin de Ramadan."
   },
   {
     "id": 60,
-    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "difficulty": "Moyen",
+    "question": "Qu’appelle-t-on “iftar” ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Le repas de rupture du jeûne",
+      "Le repas avant l’aube",
+      "Une prière",
+      "Une aumône"
     ],
     "correctIndex": 0,
-    "explanation": "Fajr a 2 raka'at obligatoires."
+    "explanation": "Iftar = rupture du jeûne au coucher du soleil."
   },
   {
     "id": 61,
-    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "difficulty": "Moyen",
+    "question": "Qu’appelle-t-on “suhoor” ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Le repas avant l’aube",
+      "Le repas du soir",
+      "Une prière",
+      "Un sermon"
     ],
-    "correctIndex": 2,
-    "explanation": "Dhuhr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Suhoor = repas avant Fajr."
   },
   {
     "id": 62,
-    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "difficulty": "Moyen",
+    "question": "Que signifie “du'a” ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Invocation",
+      "Commerce",
+      "Héritage",
+      "Désert"
     ],
-    "correctIndex": 2,
-    "explanation": "Asr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Du'a signifie invocation/supplication."
   },
   {
     "id": 63,
-    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "difficulty": "Moyen",
+    "question": "Que signifie “dhikr” ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Rappel/évocation d’Allah",
+      "Jeu",
+      "Règle fiscale",
+      "Voyage"
     ],
-    "correctIndex": 1,
-    "explanation": "Maghrib a 3 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Dhikr = évoquer Allah (formules, rappel)."
   },
   {
     "id": 64,
-    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "difficulty": "Moyen",
+    "question": "Le jeûne consiste principalement à s’abstenir de…",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Manger/boire et relations intimes de l’aube au coucher du soleil",
+      "Dormir",
+      "Parler",
+      "Voyager"
     ],
-    "correctIndex": 2,
-    "explanation": "Isha a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Le jeûne implique abstinence de l’aube au coucher du soleil."
   },
   {
     "id": 65,
-    "question": "Combien de tours fait-on au tawaf ?",
+    "difficulty": "Moyen",
+    "question": "Qu’est-ce qui rompt le jeûne de façon évidente ?",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
+      "Manger volontairement",
+      "Se brosser les dents",
+      "Oublier",
+      "Se parfumer"
     ],
-    "correctIndex": 2,
-    "explanation": "Le tawaf se fait en 7 tours."
+    "correctIndex": 0,
+    "explanation": "Manger/boire volontairement rompt le jeûne."
   },
   {
     "id": 66,
-    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "difficulty": "Moyen",
+    "question": "Si on vomit involontairement en jeûnant…",
     "answers": [
-      "Sa’i",
-      "Jamrat",
-      "Ihram",
-      "Qunut"
+      "Le jeûne est rompu",
+      "Le jeûne n’est pas rompu",
+      "Il faut toujours une fidya",
+      "On doit refaire Ramadan"
     ],
-    "correctIndex": 0,
-    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+    "correctIndex": 1,
+    "explanation": "Vomir involontairement ne rompt pas le jeûne."
   },
   {
     "id": 67,
-    "question": "Quel est le mois du Hajj ?",
+    "difficulty": "Moyen",
+    "question": "La Omra comprend…",
     "answers": [
-      "Ramadan",
-      "Dhul Hijja",
-      "Safar",
-      "Rajab"
+      "Ihram + tawaf + sa’i",
+      "Seulement tawaf",
+      "Seulement sa’i",
+      "Seulement sacrifice"
     ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj se fait en Dhul Hijja."
+    "correctIndex": 0,
+    "explanation": "Les rites: ihram, tawaf, sa’i."
   },
   {
     "id": 68,
-    "question": "Quel est le salut islamique ?",
+    "difficulty": "Moyen",
+    "question": "Qu’est-ce que l’ihram ?",
     "answers": [
-      "Bonjour",
-      "As-Salamu alaykum",
-      "Salut",
-      "Coucou"
+      "Un état de sacralisation/tenue pour hajj/omra",
+      "Une prière",
+      "Un type de zakat",
+      "Un lieu"
     ],
-    "correctIndex": 1,
-    "explanation": "Le salut est “As-Salamu alaykum”."
+    "correctIndex": 0,
+    "explanation": "L’ihram est l’état/tenue en pèlerinage."
   },
   {
     "id": 69,
-    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "difficulty": "Moyen",
+    "question": "Que signifie “halal” ?",
     "answers": [
-      "Merci",
-      "Wa alaykum as-salam",
-      "À bientôt",
-      "Amin"
+      "Permis/licite",
+      "Interdit",
+      "Douteux",
+      "Obligatoire"
     ],
-    "correctIndex": 1,
-    "explanation": "On répond “Wa alaykum as-salam”."
+    "correctIndex": 0,
+    "explanation": "Halal = licite."
   },
   {
     "id": 70,
-    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "difficulty": "Moyen",
+    "question": "Que signifie “haram” ?",
     "answers": [
-      "2:255",
-      "1:1",
-      "112:1",
-      "114:1"
+      "Permis",
+      "Interdit",
+      "Recommandé",
+      "Détestable"
     ],
-    "correctIndex": 0,
-    "explanation": "Ayat al-Kursi est le verset 2:255."
+    "correctIndex": 1,
+    "explanation": "Haram = interdit."
   },
   {
     "id": 71,
-    "question": "Quelle sourate est la plus longue ?",
+    "difficulty": "Moyen",
+    "question": "Quel est le nom de l’aumône volontaire ?",
     "answers": [
-      "Al-Baqara",
-      "Al-Imran",
-      "An-Nisa",
-      "Al-A'raf"
+      "Sadaqa",
+      "Zakat",
+      "Kaffara",
+      "Nisab"
     ],
     "correctIndex": 0,
-    "explanation": "Al-Baqara est la plus longue sourate."
+    "explanation": "Sadaqa = aumône volontaire."
   },
   {
     "id": 72,
-    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "difficulty": "Moyen",
+    "question": "Le Coran est divisé en 30…",
     "answers": [
-      "Al-Fatiha",
-      "At-Tawba",
-      "An-Nas",
-      "Al-Fil"
+      "Ajza’ (juz)",
+      "Raka'at",
+      "Hadiths",
+      "Minarets"
     ],
-    "correctIndex": 1,
-    "explanation": "At-Tawba est l’exception connue."
+    "correctIndex": 0,
+    "explanation": "Le Coran est souvent réparti en 30 juz’."
   },
   {
     "id": 73,
-    "question": "Que signifie Tawhid ?",
+    "difficulty": "Moyen",
+    "question": "Quels sont les deux Eids principaux ?",
     "answers": [
-      "Unicité d’Allah",
-      "Commerce",
-      "Voyage",
-      "Peine"
+      "Eid al-Fitr et Eid al-Adha",
+      "Noël et Pâques",
+      "Nouvel an et Carnaval",
+      "Aucune"
     ],
     "correctIndex": 0,
-    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+    "explanation": "Les deux Eids sont al-Fitr et al-Adha."
   },
   {
     "id": 74,
-    "question": "Que signifie Taqwa ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Piété / conscience d’Allah",
-      "Richesse",
-      "Guerre",
-      "Fatigue"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Taqwa = piété et conscience d’Allah."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 75,
-    "question": "Que signifie Sabr ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Patience",
-      "Colère",
-      "Envie",
-      "Oubli"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Sabr signifie patience."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 76,
-    "question": "Que signifie Ikhlas ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Sincérité",
-      "Ruse",
-      "Peur",
-      "Bruit"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Ikhlas = sincérité envers Allah."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 77,
-    "question": "Quel est le dernier prophète ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Muhammad ﷺ"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 3,
-    "explanation": "Muhammad ﷺ est le dernier prophète."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 78,
-    "question": "Quel prophète a reçu la Torah ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Nuh"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "La Torah a été révélée à Moussa."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 79,
-    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Moussa",
-      "Issa",
-      "Dawud",
-      "Ibrahim"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "L’Injil a été révélé à Issa."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 80,
-    "question": "Quel prophète a reçu le Zabour ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Dawud",
-      "Yusuf",
-      "Nuh",
-      "Yunus"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Le Zabour a été donné à Dawud."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 81,
-    "question": "Quel prophète a construit l’arche ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Nuh",
-      "Ibrahim",
-      "Moussa",
-      "Issa"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Nuh a construit l’arche."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 82,
-    "question": "Quel prophète est connu pour sa patience ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Ayoub",
-      "Yusuf",
-      "Dawud",
-      "Lut"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Ayoub est un exemple de patience."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 83,
-    "question": "Quel est le mois du jeûne obligatoire ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Rajab",
-      "Chaaban",
-      "Ramadan",
-      "Dhul Hijja"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 84,
-    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Oui",
-      "Non",
-      "Toujours",
-      "Jamais"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "Manger par oubli n’annule pas le jeûne."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 85,
-    "question": "Quelle est la prière du vendredi ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Salat al-Jumu'a",
-      "Salat al-Janaza",
-      "Salat al-Eid",
-      "Salat ad-Duha"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "La prière du vendredi est Jumu'a."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 86,
-    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Jérusalem",
-      "Médine",
-      "La Mecque",
-      "Damas"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "La Kaaba se trouve à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 87,
-    "question": "Comment s’appelle la Kaaba ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Minbar",
-      "Kaaba",
-      "Mihrab",
-      "Safa"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 88,
-    "question": "Quel est le message central de l’islam ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Paix",
-      "Règles",
-      "Tawhid",
-      "Richesse"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "Le cœur du message est l’unicité d’Allah."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 89,
-    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Fajr a 2 raka'at obligatoires."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 90,
-    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "Dhuhr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 91,
-    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "Asr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 92,
-    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "Maghrib a 3 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 93,
-    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "Isha a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 94,
-    "question": "Combien de tours fait-on au tawaf ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 2,
-    "explanation": "Le tawaf se fait en 7 tours."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 95,
-    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Sa’i",
-      "Jamrat",
-      "Ihram",
-      "Qunut"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 96,
-    "question": "Quel est le mois du Hajj ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Ramadan",
-      "Dhul Hijja",
-      "Safar",
-      "Rajab"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj se fait en Dhul Hijja."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 97,
-    "question": "Quel est le salut islamique ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Bonjour",
-      "As-Salamu alaykum",
-      "Salut",
-      "Coucou"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "Le salut est “As-Salamu alaykum”."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 98,
-    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Merci",
-      "Wa alaykum as-salam",
-      "À bientôt",
-      "Amin"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
-    "correctIndex": 1,
-    "explanation": "On répond “Wa alaykum as-salam”."
+    "correctIndex": 0,
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 99,
-    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "2:255",
-      "1:1",
-      "112:1",
-      "114:1"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Ayat al-Kursi est le verset 2:255."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 100,
-    "question": "Quelle sourate est la plus longue ?",
+    "difficulty": "Moyen",
+    "question": "Quel acte précède la prière pour être en état de purification ?",
     "answers": [
-      "Al-Baqara",
-      "Al-Imran",
-      "An-Nisa",
-      "Al-A'raf"
+      "Wudu (ablutions)",
+      "Tawaf",
+      "I'tikaf",
+      "Hijra"
     ],
     "correctIndex": 0,
-    "explanation": "Al-Baqara est la plus longue sourate."
+    "explanation": "Le wudu (ou ghusl selon le cas) précède la prière."
   },
   {
     "id": 101,
-    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Al-Fatiha",
-      "At-Tawba",
-      "An-Nas",
-      "Al-Fil"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "At-Tawba est l’exception connue."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 102,
-    "question": "Que signifie Tawhid ?",
+    "difficulty": "Difficile",
+    "question": "Dans la prière, “ruku” désigne…",
     "answers": [
-      "Unicité d’Allah",
-      "Commerce",
-      "Voyage",
-      "Peine"
+      "L’inclinaison",
+      "La prosternation",
+      "Le salut final",
+      "L’appel à la prière"
     ],
     "correctIndex": 0,
-    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+    "explanation": "Ruku = inclinaison."
   },
   {
     "id": 103,
-    "question": "Que signifie Taqwa ?",
+    "difficulty": "Difficile",
+    "question": "Le “tashahhud” est récité…",
     "answers": [
-      "Piété / conscience d’Allah",
-      "Richesse",
-      "Guerre",
-      "Fatigue"
+      "Assis durant la prière",
+      "Debout avant Fajr",
+      "Pendant le tawaf",
+      "Au moment de l’adhan"
     ],
     "correctIndex": 0,
-    "explanation": "Taqwa = piété et conscience d’Allah."
+    "explanation": "Tashahhud se récite en position assise."
   },
   {
     "id": 104,
-    "question": "Que signifie Sabr ?",
+    "difficulty": "Difficile",
+    "question": "Le “taslim” correspond…",
     "answers": [
-      "Patience",
-      "Colère",
-      "Envie",
-      "Oubli"
+      "Au salut final pour terminer la prière",
+      "Au début du jeûne",
+      "Au sacrifice",
+      "Au sermon"
     ],
     "correctIndex": 0,
-    "explanation": "Sabr signifie patience."
+    "explanation": "Le taslim clôt la prière."
   },
   {
     "id": 105,
-    "question": "Que signifie Ikhlas ?",
+    "difficulty": "Difficile",
+    "question": "Le Qur’an a été révélé…",
     "answers": [
-      "Sincérité",
-      "Ruse",
-      "Peur",
-      "Bruit"
+      "Progressivement",
+      "En une seule fois",
+      "En deux jours",
+      "Après la mort du Prophète ﷺ"
     ],
     "correctIndex": 0,
-    "explanation": "Ikhlas = sincérité envers Allah."
+    "explanation": "La révélation a été progressive sur des années."
   },
   {
     "id": 106,
-    "question": "Quel est le dernier prophète ?",
+    "difficulty": "Difficile",
+    "question": "Quel nom donne-t-on aux sourates révélées avant la Hijra ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Muhammad ﷺ"
+      "Mecquoises",
+      "Médinoises",
+      "Andalouses",
+      "Maghrébines"
     ],
-    "correctIndex": 3,
-    "explanation": "Muhammad ﷺ est le dernier prophète."
+    "correctIndex": 0,
+    "explanation": "On parle de sourates mecquoises."
   },
   {
     "id": 107,
-    "question": "Quel prophète a reçu la Torah ?",
+    "difficulty": "Difficile",
+    "question": "Quel nom donne-t-on aux sourates révélées après la Hijra ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Nuh"
+      "Médinoises",
+      "Mecquoises",
+      "Syroises",
+      "Persanes"
     ],
-    "correctIndex": 1,
-    "explanation": "La Torah a été révélée à Moussa."
+    "correctIndex": 0,
+    "explanation": "On parle de sourates médinoises."
   },
   {
     "id": 108,
-    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "difficulty": "Difficile",
+    "question": "Quel est l’objectif du jeûne (sens général) ?",
     "answers": [
-      "Moussa",
-      "Issa",
-      "Dawud",
-      "Ibrahim"
+      "Développer la taqwa",
+      "Gagner du muscle",
+      "Voyager",
+      "S’enrichir"
     ],
-    "correctIndex": 1,
-    "explanation": "L’Injil a été révélé à Issa."
+    "correctIndex": 0,
+    "explanation": "Le jeûne vise à accroître la taqwa."
   },
   {
     "id": 109,
-    "question": "Quel prophète a reçu le Zabour ?",
+    "difficulty": "Difficile",
+    "question": "Le principe: “la certitude n’est pas levée par le doute” signifie…",
     "answers": [
-      "Dawud",
-      "Yusuf",
-      "Nuh",
-      "Yunus"
+      "Le doute ne supprime pas une certitude établie",
+      "Le doute annule tout",
+      "On suit le hasard",
+      "On ne prie jamais"
     ],
     "correctIndex": 0,
-    "explanation": "Le Zabour a été donné à Dawud."
+    "explanation": "Principe fiqh: la certitude prime sur le doute."
   },
   {
     "id": 110,
-    "question": "Quel prophète a construit l’arche ?",
+    "difficulty": "Difficile",
+    "question": "Le “sujud as-sahw” est…",
     "answers": [
-      "Nuh",
-      "Ibrahim",
-      "Moussa",
-      "Issa"
+      "Une réparation en cas d’oubli dans la prière",
+      "Une prière du vendredi",
+      "Un type de jeûne",
+      "Un rite du tawaf"
     ],
     "correctIndex": 0,
-    "explanation": "Nuh a construit l’arche."
+    "explanation": "Prosternation(s) de réparation selon les cas."
   },
   {
     "id": 111,
-    "question": "Quel prophète est connu pour sa patience ?",
+    "difficulty": "Difficile",
+    "question": "La “khushu’” dans la prière signifie…",
     "answers": [
-      "Ayoub",
-      "Yusuf",
-      "Dawud",
-      "Lut"
+      "Recueillement/présence du cœur",
+      "Vitesse",
+      "Sommeil",
+      "Rire"
     ],
     "correctIndex": 0,
-    "explanation": "Ayoub est un exemple de patience."
+    "explanation": "Khushu’ = concentration et humilité."
   },
   {
     "id": 112,
-    "question": "Quel est le mois du jeûne obligatoire ?",
+    "difficulty": "Difficile",
+    "question": "Le “nisab” est…",
     "answers": [
-      "Rajab",
-      "Chaaban",
-      "Ramadan",
-      "Dhul Hijja"
+      "Un seuil minimum pour la zakat",
+      "Un type de prière",
+      "Un rite du hajj",
+      "Une sourate"
     ],
-    "correctIndex": 2,
-    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+    "correctIndex": 0,
+    "explanation": "Nisab = seuil déclencheur de la zakat."
   },
   {
     "id": 113,
-    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "difficulty": "Difficile",
+    "question": "Le “mihrab” indique…",
     "answers": [
-      "Oui",
-      "Non",
-      "Toujours",
-      "Jamais"
+      "La direction de la qibla",
+      "La sortie",
+      "Le marché",
+      "La bibliothèque"
     ],
-    "correctIndex": 1,
-    "explanation": "Manger par oubli n’annule pas le jeûne."
+    "correctIndex": 0,
+    "explanation": "Mihrab indique la qibla."
   },
   {
     "id": 114,
-    "question": "Quelle est la prière du vendredi ?",
+    "difficulty": "Difficile",
+    "question": "Le “minbar” est…",
     "answers": [
-      "Salat al-Jumu'a",
-      "Salat al-Janaza",
-      "Salat al-Eid",
-      "Salat ad-Duha"
+      "La chaire du sermon",
+      "La fontaine",
+      "Le tapis",
+      "Le minaret"
     ],
     "correctIndex": 0,
-    "explanation": "La prière du vendredi est Jumu'a."
+    "explanation": "Minbar = chaire de khutba."
   },
   {
     "id": 115,
-    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "difficulty": "Difficile",
+    "question": "Le “wuquf” au Hajj signifie…",
     "answers": [
-      "Jérusalem",
-      "Médine",
-      "La Mecque",
-      "Damas"
+      "Station/présence à Arafat",
+      "Tawaf",
+      "Sa’i",
+      "Sacrifice"
     ],
-    "correctIndex": 2,
-    "explanation": "La Kaaba se trouve à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Wuquf = station à Arafat."
   },
   {
     "id": 116,
-    "question": "Comment s’appelle la Kaaba ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Minbar",
-      "Kaaba",
-      "Mihrab",
-      "Safa"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 117,
-    "question": "Quel est le message central de l’islam ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Paix",
-      "Règles",
-      "Tawhid",
-      "Richesse"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Le cœur du message est l’unicité d’Allah."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 118,
-    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Fajr a 2 raka'at obligatoires."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 119,
-    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Dhuhr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 120,
-    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Asr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 121,
-    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "Maghrib a 3 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 122,
-    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Isha a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 123,
-    "question": "Combien de tours fait-on au tawaf ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Le tawaf se fait en 7 tours."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 124,
-    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Sa’i",
-      "Jamrat",
-      "Ihram",
-      "Qunut"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 125,
-    "question": "Quel est le mois du Hajj ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Ramadan",
-      "Dhul Hijja",
-      "Safar",
-      "Rajab"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj se fait en Dhul Hijja."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 126,
-    "question": "Quel est le salut islamique ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Bonjour",
-      "As-Salamu alaykum",
-      "Salut",
-      "Coucou"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "Le salut est “As-Salamu alaykum”."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 127,
-    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Merci",
-      "Wa alaykum as-salam",
-      "À bientôt",
-      "Amin"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "On répond “Wa alaykum as-salam”."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 128,
-    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2:255",
-      "1:1",
-      "112:1",
-      "114:1"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Ayat al-Kursi est le verset 2:255."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 129,
-    "question": "Quelle sourate est la plus longue ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Al-Baqara",
-      "Al-Imran",
-      "An-Nisa",
-      "Al-A'raf"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Al-Baqara est la plus longue sourate."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 130,
-    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Al-Fatiha",
-      "At-Tawba",
-      "An-Nas",
-      "Al-Fil"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "At-Tawba est l’exception connue."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 131,
-    "question": "Que signifie Tawhid ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Unicité d’Allah",
-      "Commerce",
-      "Voyage",
-      "Peine"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 132,
-    "question": "Que signifie Taqwa ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Piété / conscience d’Allah",
-      "Richesse",
-      "Guerre",
-      "Fatigue"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Taqwa = piété et conscience d’Allah."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 133,
-    "question": "Que signifie Sabr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Patience",
-      "Colère",
-      "Envie",
-      "Oubli"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Sabr signifie patience."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 134,
-    "question": "Que signifie Ikhlas ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Sincérité",
-      "Ruse",
-      "Peur",
-      "Bruit"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Ikhlas = sincérité envers Allah."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 135,
-    "question": "Quel est le dernier prophète ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Muhammad ﷺ"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 3,
-    "explanation": "Muhammad ﷺ est le dernier prophète."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 136,
-    "question": "Quel prophète a reçu la Torah ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Nuh"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "La Torah a été révélée à Moussa."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 137,
-    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Moussa",
-      "Issa",
-      "Dawud",
-      "Ibrahim"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "L’Injil a été révélé à Issa."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 138,
-    "question": "Quel prophète a reçu le Zabour ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Dawud",
-      "Yusuf",
-      "Nuh",
-      "Yunus"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Le Zabour a été donné à Dawud."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 139,
-    "question": "Quel prophète a construit l’arche ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Nuh",
-      "Ibrahim",
-      "Moussa",
-      "Issa"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Nuh a construit l’arche."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 140,
-    "question": "Quel prophète est connu pour sa patience ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Ayoub",
-      "Yusuf",
-      "Dawud",
-      "Lut"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Ayoub est un exemple de patience."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 141,
-    "question": "Quel est le mois du jeûne obligatoire ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Rajab",
-      "Chaaban",
-      "Ramadan",
-      "Dhul Hijja"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 142,
-    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Oui",
-      "Non",
-      "Toujours",
-      "Jamais"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "Manger par oubli n’annule pas le jeûne."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 143,
-    "question": "Quelle est la prière du vendredi ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Salat al-Jumu'a",
-      "Salat al-Janaza",
-      "Salat al-Eid",
-      "Salat ad-Duha"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "La prière du vendredi est Jumu'a."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 144,
-    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Jérusalem",
-      "Médine",
-      "La Mecque",
-      "Damas"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "La Kaaba se trouve à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 145,
-    "question": "Comment s’appelle la Kaaba ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Minbar",
-      "Kaaba",
-      "Mihrab",
-      "Safa"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 146,
-    "question": "Quel est le message central de l’islam ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "Paix",
-      "Règles",
-      "Tawhid",
-      "Richesse"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Le cœur du message est l’unicité d’Allah."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 147,
-    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
     "correctIndex": 0,
-    "explanation": "Fajr a 2 raka'at obligatoires."
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 148,
-    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Dhuhr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 149,
-    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 2,
-    "explanation": "Asr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 150,
-    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "difficulty": "Difficile",
+    "question": "Quel est le sens de “ihsan” (hadith de Jibril) ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Adorer Allah comme si tu Le voyais",
+      "Être riche",
+      "Voyager souvent",
+      "Ne jamais parler"
     ],
-    "correctIndex": 1,
-    "explanation": "Maghrib a 3 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Ihsan: excellence dans l’adoration, conscience d’Allah."
   },
   {
     "id": 151,
-    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Isha a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 152,
-    "question": "Combien de tours fait-on au tawaf ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on le texte/contenu d’un hadith ?",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
+      "Matn",
+      "Isnad",
+      "Sira",
+      "Adab"
     ],
-    "correctIndex": 2,
-    "explanation": "Le tawaf se fait en 7 tours."
+    "correctIndex": 0,
+    "explanation": "Matn = contenu du hadith."
   },
   {
     "id": 153,
-    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "difficulty": "Expert",
+    "question": "Un hadith “sahih” est…",
     "answers": [
-      "Sa’i",
-      "Jamrat",
-      "Ihram",
-      "Qunut"
+      "Authentique selon critères",
+      "Toujours faible",
+      "Toujours inventé",
+      "Toujours inconnu"
     ],
     "correctIndex": 0,
-    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+    "explanation": "Sahih = authentique selon les critères."
   },
   {
     "id": 154,
-    "question": "Quel est le mois du Hajj ?",
+    "difficulty": "Expert",
+    "question": "Un hadith “da‘if” est…",
     "answers": [
-      "Ramadan",
-      "Dhul Hijja",
-      "Safar",
-      "Rajab"
+      "Faible",
+      "Obligatoire",
+      "Toujours authentique",
+      "Toujours coranique"
     ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj se fait en Dhul Hijja."
+    "correctIndex": 0,
+    "explanation": "Da‘if = faible."
   },
   {
     "id": 155,
-    "question": "Quel est le salut islamique ?",
+    "difficulty": "Expert",
+    "question": "Que désigne le terme “tafsir” ?",
     "answers": [
-      "Bonjour",
-      "As-Salamu alaykum",
-      "Salut",
-      "Coucou"
+      "Exégèse/explication du Coran",
+      "Commerce",
+      "Ablution",
+      "Voyage"
     ],
-    "correctIndex": 1,
-    "explanation": "Le salut est “As-Salamu alaykum”."
+    "correctIndex": 0,
+    "explanation": "Tafsir = explication du Coran."
   },
   {
     "id": 156,
-    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "difficulty": "Expert",
+    "question": "Le calendrier islamique est…",
     "answers": [
-      "Merci",
-      "Wa alaykum as-salam",
-      "À bientôt",
-      "Amin"
+      "Lunaire",
+      "Solaire",
+      "Fixe saisonnier",
+      "Basé sur les semaines"
     ],
-    "correctIndex": 1,
-    "explanation": "On répond “Wa alaykum as-salam”."
+    "correctIndex": 0,
+    "explanation": "Le calendrier islamique est lunaire."
   },
   {
     "id": 157,
-    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "difficulty": "Expert",
+    "question": "“Hijri” renvoie au calendrier basé sur…",
     "answers": [
-      "2:255",
-      "1:1",
-      "112:1",
-      "114:1"
+      "La Hijra (migration)",
+      "La bataille de Badr",
+      "La naissance",
+      "La récolte"
     ],
     "correctIndex": 0,
-    "explanation": "Ayat al-Kursi est le verset 2:255."
+    "explanation": "Le calendrier hijri commence à la Hijra."
   },
   {
     "id": 158,
-    "question": "Quelle sourate est la plus longue ?",
+    "difficulty": "Expert",
+    "question": "Que signifie “tawba” ?",
     "answers": [
-      "Al-Baqara",
-      "Al-Imran",
-      "An-Nisa",
-      "Al-A'raf"
+      "Repentir",
+      "Sacrifice",
+      "Voyage",
+      "Marché"
     ],
     "correctIndex": 0,
-    "explanation": "Al-Baqara est la plus longue sourate."
+    "explanation": "Tawba = repentir."
   },
   {
     "id": 159,
-    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "difficulty": "Expert",
+    "question": "Que signifie “shukr” ?",
     "answers": [
-      "Al-Fatiha",
-      "At-Tawba",
-      "An-Nas",
-      "Al-Fil"
+      "Gratitude",
+      "Colère",
+      "Honte",
+      "Peur"
     ],
-    "correctIndex": 1,
-    "explanation": "At-Tawba est l’exception connue."
+    "correctIndex": 0,
+    "explanation": "Shukr = reconnaissance."
   },
   {
     "id": 160,
-    "question": "Que signifie Tawhid ?",
+    "difficulty": "Expert",
+    "question": "“Riya” (religieux) désigne…",
     "answers": [
-      "Unicité d’Allah",
-      "Commerce",
-      "Voyage",
-      "Peine"
+      "Ostentation dans l’adoration",
+      "Pardon",
+      "Jeûne",
+      "Aumône"
     ],
     "correctIndex": 0,
-    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+    "explanation": "Riya = faire pour être vu."
   },
   {
     "id": 161,
-    "question": "Que signifie Taqwa ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Piété / conscience d’Allah",
-      "Richesse",
-      "Guerre",
-      "Fatigue"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Taqwa = piété et conscience d’Allah."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 162,
-    "question": "Que signifie Sabr ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Patience",
-      "Colère",
-      "Envie",
-      "Oubli"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Sabr signifie patience."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 163,
-    "question": "Que signifie Ikhlas ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Sincérité",
-      "Ruse",
-      "Peur",
-      "Bruit"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Ikhlas = sincérité envers Allah."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 164,
-    "question": "Quel est le dernier prophète ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Muhammad ﷺ"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 3,
-    "explanation": "Muhammad ﷺ est le dernier prophète."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 165,
-    "question": "Quel prophète a reçu la Torah ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Nuh"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "La Torah a été révélée à Moussa."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 166,
-    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Moussa",
-      "Issa",
-      "Dawud",
-      "Ibrahim"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "L’Injil a été révélé à Issa."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 167,
-    "question": "Quel prophète a reçu le Zabour ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Dawud",
-      "Yusuf",
-      "Nuh",
-      "Yunus"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Le Zabour a été donné à Dawud."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 168,
-    "question": "Quel prophète a construit l’arche ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Nuh",
-      "Ibrahim",
-      "Moussa",
-      "Issa"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Nuh a construit l’arche."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 169,
-    "question": "Quel prophète est connu pour sa patience ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Ayoub",
-      "Yusuf",
-      "Dawud",
-      "Lut"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Ayoub est un exemple de patience."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 170,
-    "question": "Quel est le mois du jeûne obligatoire ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Rajab",
-      "Chaaban",
-      "Ramadan",
-      "Dhul Hijja"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 171,
-    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Oui",
-      "Non",
-      "Toujours",
-      "Jamais"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "Manger par oubli n’annule pas le jeûne."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 172,
-    "question": "Quelle est la prière du vendredi ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Salat al-Jumu'a",
-      "Salat al-Janaza",
-      "Salat al-Eid",
-      "Salat ad-Duha"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "La prière du vendredi est Jumu'a."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 173,
-    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Jérusalem",
-      "Médine",
-      "La Mecque",
-      "Damas"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "La Kaaba se trouve à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 174,
-    "question": "Comment s’appelle la Kaaba ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Minbar",
-      "Kaaba",
-      "Mihrab",
-      "Safa"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 175,
-    "question": "Quel est le message central de l’islam ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Paix",
-      "Règles",
-      "Tawhid",
-      "Richesse"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Le cœur du message est l’unicité d’Allah."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 176,
-    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Fajr a 2 raka'at obligatoires."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 177,
-    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Dhuhr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 178,
-    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Asr a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 179,
-    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "Maghrib a 3 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 180,
-    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Isha a 4 raka'at obligatoires."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 181,
-    "question": "Combien de tours fait-on au tawaf ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "5",
-      "6",
-      "7",
-      "8"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Le tawaf se fait en 7 tours."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 182,
-    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Sa’i",
-      "Jamrat",
-      "Ihram",
-      "Qunut"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 183,
-    "question": "Quel est le mois du Hajj ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Ramadan",
-      "Dhul Hijja",
-      "Safar",
-      "Rajab"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "Le Hajj se fait en Dhul Hijja."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 184,
-    "question": "Quel est le salut islamique ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Bonjour",
-      "As-Salamu alaykum",
-      "Salut",
-      "Coucou"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "Le salut est “As-Salamu alaykum”."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 185,
-    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Merci",
-      "Wa alaykum as-salam",
-      "À bientôt",
-      "Amin"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "On répond “Wa alaykum as-salam”."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 186,
-    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "2:255",
-      "1:1",
-      "112:1",
-      "114:1"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Ayat al-Kursi est le verset 2:255."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 187,
-    "question": "Quelle sourate est la plus longue ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Al-Baqara",
-      "Al-Imran",
-      "An-Nisa",
-      "Al-A'raf"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Al-Baqara est la plus longue sourate."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 188,
-    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Al-Fatiha",
-      "At-Tawba",
-      "An-Nas",
-      "Al-Fil"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "At-Tawba est l’exception connue."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 189,
-    "question": "Que signifie Tawhid ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Unicité d’Allah",
-      "Commerce",
-      "Voyage",
-      "Peine"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 190,
-    "question": "Que signifie Taqwa ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Piété / conscience d’Allah",
-      "Richesse",
-      "Guerre",
-      "Fatigue"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Taqwa = piété et conscience d’Allah."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 191,
-    "question": "Que signifie Sabr ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Patience",
-      "Colère",
-      "Envie",
-      "Oubli"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Sabr signifie patience."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 192,
-    "question": "Que signifie Ikhlas ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Sincérité",
-      "Ruse",
-      "Peur",
-      "Bruit"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Ikhlas = sincérité envers Allah."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 193,
-    "question": "Quel est le dernier prophète ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Muhammad ﷺ"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 3,
-    "explanation": "Muhammad ﷺ est le dernier prophète."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 194,
-    "question": "Quel prophète a reçu la Torah ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Issa",
-      "Moussa",
-      "Ibrahim",
-      "Nuh"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "La Torah a été révélée à Moussa."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 195,
-    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Moussa",
-      "Issa",
-      "Dawud",
-      "Ibrahim"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "L’Injil a été révélé à Issa."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 196,
-    "question": "Quel prophète a reçu le Zabour ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Dawud",
-      "Yusuf",
-      "Nuh",
-      "Yunus"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Le Zabour a été donné à Dawud."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 197,
-    "question": "Quel prophète a construit l’arche ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Nuh",
-      "Ibrahim",
-      "Moussa",
-      "Issa"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Nuh a construit l’arche."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 198,
-    "question": "Quel prophète est connu pour sa patience ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Ayoub",
-      "Yusuf",
-      "Dawud",
-      "Lut"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
     "correctIndex": 0,
-    "explanation": "Ayoub est un exemple de patience."
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 199,
-    "question": "Quel est le mois du jeûne obligatoire ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Rajab",
-      "Chaaban",
-      "Ramadan",
-      "Dhul Hijja"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 2,
-    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   },
   {
     "id": 200,
-    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "difficulty": "Expert",
+    "question": "Comment appelle-t-on la chaîne de transmission d’un hadith ?",
     "answers": [
-      "Oui",
-      "Non",
-      "Toujours",
-      "Jamais"
+      "Isnad",
+      "Matn",
+      "Tafsir",
+      "Fiqh"
     ],
-    "correctIndex": 1,
-    "explanation": "Manger par oubli n’annule pas le jeûne."
+    "correctIndex": 0,
+    "explanation": "Isnad = chaîne de transmetteurs."
   }
-    ]
+]
