@@ -278,3 +278,83 @@ h1{
     justify-content:space-between;
   }
 }
+/* ===========================
+   THEME (clair/sombre)
+   =========================== */
+:root{
+  --bg1:#070a0f;
+  --bg2:#0b0f14;
+  --cardBg:rgba(255,255,255,0.03);
+  --panelBg:rgba(0,0,0,0.18);
+  --answerBg1:rgba(255,255,255,0.14);
+  --answerBg2:rgba(255,255,255,0.06);
+  --barBase:#0a0f18;
+}
+
+html[data-theme="light"]{
+  --bg1:#f6f7fb;
+  --bg2:#eef1f7;
+  --text:#0b1220;
+  --muted:#44546a;
+  --line:rgba(20,30,50,0.18);
+
+  --cardBg:rgba(0,0,0,0.03);
+  --panelBg:rgba(0,0,0,0.04);
+
+  --btn:#ffffff;
+  --btn2:#eef2ff;
+
+  --answerBg1:rgba(0,0,0,0.04);
+  --answerBg2:rgba(0,0,0,0.02);
+
+  --barBase:rgba(0,0,0,0.06);
+}
+
+/* applique les variables */
+body{
+  background:linear-gradient(180deg,var(--bg1),var(--bg2));
+  color:var(--text);
+}
+.card{ background:var(--cardBg); }
+.timerBox, .toggle{ background:var(--panelBg); }
+.bar{ background:var(--barBase); }
+
+/* ===========================
+   TIMER rouge à 3s
+   =========================== */
+.timerBox.danger{
+  border-color: rgba(255,77,77,0.7) !important;
+  box-shadow: 0 0 0 2px rgba(255,77,77,0.10);
+}
+.timerValue.danger{
+  color: #ff4d4d;
+}
+#barFill.danger{
+  background: rgba(255,77,77,0.55) !important;
+}
+
+/* ===========================
+   Réponses: utilise les variables
+   =========================== */
+.answerBtn{
+  background:linear-gradient(180deg, var(--answerBg1), var(--answerBg2)) !important;
+}
+
+/* ===========================
+   ANIMATIONS
+   =========================== */
+@keyframes pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-6px); }
+  40% { transform: translateX(6px); }
+  60% { transform: translateX(-4px); }
+  80% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+.answerBtn.pop{ animation: pop .22s ease; }
+.answerBtn.shake{ animation: shake .28s ease; }
