@@ -87,14 +87,19 @@ h1{margin:0;font-size:28px}
 }
 .answerBtn{
   border:1px solid var(--line);
-  background:rgba(255,255,255,0.06);
+  background:linear-gradient(
+    180deg,
+    rgba(255,255,255,0.10),
+    rgba(255,255,255,0.04)
+  );
   padding:12px;
   border-radius:14px;
   cursor:pointer;
   text-align:left;
-  color:#ffffff;              /* ✅ TEXTE BLANC */
+  color:#ffffff;
   font-weight:500;
 }
+
 
 .answerBtn:hover{background:rgba(255,255,255,0.06)}
 .answerBtn.disabled{opacity:.7;cursor:not-allowed}
