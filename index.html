@@ -3,84 +3,81 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Quiz Islam — 200 Questions</title>
-  <link rel="stylesheet" href="styles.css?v=999" />
+  <title>Islam Quiz</title>
+  <link rel="stylesheet" href="styles.css?v=9999" />
 </head>
+<body>
+  <main class="screen">
 
-<body class="gameBg">
-  <main class="game">
+    <!-- Clouds -->
+    <div class="cloud c1"></div>
+    <div class="cloud c2"></div>
 
-    <!-- TOP BAR -->
-    <header class="topBar">
-      <div class="topLeft">
-        <div class="chip">
-          ⏱ <span id="time">10</span>s
-        </div>
+    <!-- Header -->
+    <header class="header">
+      <div class="titleRow">
+        <h1 class="title">ISLAM QUIZ</h1>
+        <div class="badgeQ">?</div>
       </div>
 
-      <div class="topCenter">Duel</div>
+      <div class="hud">
+        <div class="hudItem">
+          <div class="hudLabel">Partie</div>
+          <div class="hudValue"><span id="progress">0</span>/20</div>
+        </div>
 
-      <div class="topRight">
-        <div class="chip">
-          🪙 <span id="coins">130</span>
+        <div class="hudItem">
+          <div class="hudLabel">Difficulté</div>
+          <div class="hudValue" id="difficulty">—</div>
+        </div>
+
+        <div class="hudItem">
+          <div class="hudLabel">Points</div>
+          <div class="hudValue">+<span id="points">0</span></div>
+        </div>
+
+        <div class="hudItem">
+          <div class="hudLabel">Score</div>
+          <div class="hudValue"><span id="score">0</span></div>
         </div>
       </div>
     </header>
 
-    <!-- DUEL BAR -->
-    <section class="duelBar">
-      <img class="avatar" src="assets/avatars/left.png" alt="joueur" />
-      <div class="track">
-        <div id="duelFill" class="fill"></div>
-        <div class="dots">
-          <span></span><span></span><span></span><span></span><span></span><span></span>
-        </div>
-      </div>
-      <img class="avatar" src="assets/avatars/right.png" alt="adversaire" />
-    </section>
-
-    <!-- CARD QUESTION -->
-    <section class="qCard">
-      <div class="qHead">
-        <div class="qImgWrap">
-          <img id="qImg" class="qImg" src="assets/images/default.png" alt="illustration" />
-        </div>
-
-        <div class="qTextWrap">
-          <div class="metaLine">
-            <span id="progress" class="meta">0/200</span>
-            <span class="sep">•</span>
-            <span id="score" class="meta">Score: 0</span>
-          </div>
-          <h2 id="question" class="qTitle">Prêt. Clique “Démarrer”.</h2>
-        </div>
+    <!-- Card question -->
+    <section class="card">
+      <div class="cardInner">
+        <p id="question" class="question">Clique “Démarrer”.</p>
       </div>
     </section>
 
-    <!-- ANSWERS -->
-    <section id="answers" class="answersStack"></section>
+    <!-- Answers -->
+    <section id="answers" class="answers"></section>
 
-    <!-- JOKER -->
-    <div class="bottomActions">
-      <button id="btnJoker" class="jokerBtn" type="button">🃏 Joker</button>
-    </div>
-
-    <!-- HIDDEN FEEDBACK (garde ton système) -->
+    <!-- Feedback -->
     <section id="feedback" class="feedback hidden">
       <div id="resultLine" class="resultLine"></div>
       <div id="explanation" class="explain"></div>
-      <button id="btnNext" class="btnNext" type="button">Question suivante</button>
+      <button id="btnNext" class="btn btnPrimary" type="button">Question suivante</button>
     </section>
 
-    <!-- Start/Restart (tu peux les garder, ou les cacher) -->
-    <div class="devControls">
-      <button id="btnStart" class="devBtn" type="button">Démarrer</button>
-      <button id="btnRestart" class="devBtn" type="button">Recommencer</button>
-      <label class="devToggle">
-        <input id="toggleSound" type="checkbox" checked />
-        <span>Sons</span>
-      </label>
-    </div>
+    <!-- Bottom -->
+    <footer class="bottom">
+      <div class="barWrap" aria-label="progression">
+        <div id="barFill" class="barFill"></div>
+      </div>
+
+      <div class="actions">
+        <button id="btnStart" class="btn btnPrimary" type="button">Démarrer</button>
+        <button id="btnRestart" class="btn" type="button">Rejouer</button>
+
+        <label class="sound">
+          <input id="toggleSound" type="checkbox" checked />
+          <span>Sons</span>
+        </label>
+      </div>
+
+      <small class="note">20 questions max par partie • questions mélangées</small>
+    </footer>
 
   </main>
 
