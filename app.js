@@ -1,6 +1,12 @@
-const QUIZ_URL = "./assets/quiz_islam_200.json"; // adapte si ton JSON est ailleurs
-const TIME_PER_QUESTION = 10;
-const DANGER_AT = 3;
+const QUIZ_URL = "./assets/quiz_islam_200.json";
+const MAX_PER_GAME = 20;
+
+const POINTS_BY_DIFFICULTY = {
+  "Facile": 10,
+  "Moyen": 20,
+  "Difficile": 30,
+  "Expert": 40,
+};
 
 const SOUNDS = {
   correct: "assets/sounds/correct.mp3",
@@ -14,164 +20,105 @@ const el = (id) => document.getElementById(id);
 const ui = {
   progress: el("progress"),
   score: el("score"),
-  time: el("time"),
-  barFill: el("barFill"),
+  points: el("points"),
+  difficulty: el("difficulty"),
+
   question: el("question"),
   answers: el("answers"),
+
   feedback: el("feedback"),
   resultLine: el("resultLine"),
   explanation: el("explanation"),
+  btnNext: el("btnNext"),
+
   btnStart: el("btnStart"),
   btnRestart: el("btnRestart"),
-  btnNext: el("btnNext"),
   toggleSound: el("toggleSound"),
-  btnTheme: el("btnTheme"),
+
+  barFill: el("barFill"),
 };
 
-const root = document.documentElement;
-
-let quiz = [];
-let order = [];
+let all = [];
+let game = [];        // 20 questions
 let index = 0;
-let score = 0;
+let score = 0;        // points total
 let locked = true;
 
-let timer = null;
-let timeLeft = TIME_PER_QUESTION;
-
-/* ===========================
-   THEME
-   =========================== */
-function applyTheme(theme) {
-  root.dataset.theme = theme; // "dark" | "light"
-  localStorage.setItem("theme", theme);
-  if (ui.btnTheme) ui.btnTheme.textContent = theme === "light" ? "☀️ Clair" : "🌙 Sombre";
-}
-
-function initTheme() {
-  const saved = localStorage.getItem("theme");
-  applyTheme(saved === "light" ? "light" : "dark");
-  if (ui.btnTheme) {
-    ui.btnTheme.addEventListener("click", () => {
-      const next = root.dataset.theme === "light" ? "dark" : "light";
-      applyTheme(next);
-    });
-  }
-}
-
-/* ===========================
-   UTILS
-   =========================== */
-function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
+function shuffle(arr){
+  for (let i = arr.length - 1; i > 0; i--){
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
 }
 
-function playSound(key) {
+function playSound(key){
   if (!ui.toggleSound?.checked) return;
   const src = SOUNDS[key];
   if (!src) return;
   const a = new Audio(src);
   a.volume = 0.6;
-  a.play().catch(() => {});
+  a.play().catch(()=>{});
 }
 
-function stopTimer() {
-  if (timer) clearInterval(timer);
-  timer = null;
+function getDifficulty(q){
+  // si ton JSON a "difficulty", on l’utilise. sinon "Moyen" par défaut.
+  const d = (q.difficulty || "Moyen").toString().trim();
+  return POINTS_BY_DIFFICULTY[d] ? d : "Moyen";
 }
 
-function setDangerUI(isDanger) {
-  const timerBox = document.querySelector(".timerBox");
-  const timerValue = document.querySelector(".timerValue");
-  timerBox?.classList.toggle("danger", isDanger);
-  timerValue?.classList.toggle("danger", isDanger);
-  ui.barFill?.classList.toggle("danger", isDanger);
+function getPoints(q){
+  const d = getDifficulty(q);
+  return POINTS_BY_DIFFICULTY[d] ?? 20;
 }
 
-function setTimerUI() {
-  ui.time.textContent = String(timeLeft);
-  const ratio = Math.max(0, Math.min(1, timeLeft / TIME_PER_QUESTION));
-  ui.barFill.style.width = `${ratio * 100}%`;
-
-  setDangerUI(timeLeft <= DANGER_AT);
+function setProgressUI(){
+  ui.progress.textContent = String(index + 1);
+  ui.score.textContent = String(score);
+  const pct = Math.round(((index) / MAX_PER_GAME) * 100);
+  ui.barFill.style.width = `${pct}%`;
 }
 
-function startTimer() {
-  stopTimer();
-  timeLeft = TIME_PER_QUESTION;
-  setTimerUI();
-
-  timer = setInterval(() => {
-    timeLeft -= 1;
-    setTimerUI();
-    if (timeLeft <= 0) {
-      stopTimer();
-      onTimeout();
-    }
-  }, 1000);
-}
-
-function resetFeedback() {
+function resetFeedback(){
   ui.feedback.classList.add("hidden");
   ui.resultLine.textContent = "";
   ui.explanation.textContent = "";
 }
 
-function lockAnswers(lock) {
+function lockAnswers(lock){
   locked = lock;
   const btns = ui.answers.querySelectorAll("button");
-  btns.forEach((b) => {
+  btns.forEach(b => {
     b.classList.toggle("disabled", lock);
     b.disabled = lock;
   });
 }
 
-function clearAnim(btn) {
-  btn.classList.remove("pop", "shake");
-  // force reflow pour rejouer l'anim
-  void btn.offsetWidth;
-}
-
-/* ===========================
-   RENDER
-   =========================== */
-function render() {
+function render(){
   resetFeedback();
 
-  const q = quiz[order[index]];
+  const q = game[index];
+  const diff = getDifficulty(q);
+  const pts = getPoints(q);
+
+  ui.difficulty.textContent = diff;
+  ui.points.textContent = String(pts);
   ui.question.textContent = q.question;
 
   ui.answers.innerHTML = "";
   q.answers.forEach((txt, i) => {
     const b = document.createElement("button");
     b.className = "answerBtn";
-    b.textContent = `${String.fromCharCode(65 + i)}. ${txt}`;
-    b.addEventListener("click", () => choose(i, b));
+    b.textContent = txt;
+    b.addEventListener("click", () => choose(i));
     ui.answers.appendChild(b);
   });
 
-  ui.progress.textContent = `${index + 1}/${quiz.length}`;
-  ui.score.textContent = `Score: ${score}`;
-
+  setProgressUI();
   lockAnswers(false);
-  startTimer();
 }
 
-function showFeedback(isCorrect, correctIndex, explanation, reason = "") {
-  ui.feedback.classList.remove("hidden");
-  ui.resultLine.textContent = isCorrect
-    ? "✅ Bonne réponse !"
-    : `❌ Mauvaise réponse. ${reason}`.trim();
-
-  const letter = String.fromCharCode(65 + correctIndex);
-  ui.explanation.textContent = `Réponse: ${letter}. ${quiz[order[index]].answers[correctIndex]} — ${explanation}`;
-}
-
-function markButtons(correctIndex, chosenIndex) {
+function markButtons(correctIndex, chosenIndex){
   const btns = [...ui.answers.querySelectorAll("button")];
   btns.forEach((b, i) => {
     if (i === correctIndex) b.classList.add("good");
@@ -179,130 +126,106 @@ function markButtons(correctIndex, chosenIndex) {
   });
 }
 
-/* ===========================
-   GAME LOGIC
-   =========================== */
-function choose(chosenIndex, chosenBtn) {
-  if (locked) return;
+function showFeedback(ok, q){
+  ui.feedback.classList.remove("hidden");
+  ui.resultLine.textContent = ok ? "✅ Bonne réponse !" : "❌ Mauvaise réponse.";
+  const letter = String.fromCharCode(65 + q.correctIndex);
+  ui.explanation.textContent = `Réponse: ${letter}. ${q.answers[q.correctIndex]} — ${q.explanation}`;
+}
 
+function choose(chosenIndex){
+  if (locked) return;
   playSound("click");
-  stopTimer();
+
+  const q = game[index];
+  const ok = chosenIndex === q.correctIndex;
+
   lockAnswers(true);
 
-  const q = quiz[order[index]];
-  const correctIndex = q.correctIndex;
-  const ok = chosenIndex === correctIndex;
-
-  // anim
-  if (chosenBtn) {
-    clearAnim(chosenBtn);
-    chosenBtn.classList.add(ok ? "pop" : "shake");
-  }
-
-  if (ok) {
-    score += 1;
+  if (ok){
+    score += getPoints(q);
     playSound("correct");
   } else {
     playSound("wrong");
   }
 
-  markButtons(correctIndex, chosenIndex);
-  showFeedback(ok, correctIndex, q.explanation);
-
-  ui.score.textContent = `Score: ${score}`;
+  markButtons(q.correctIndex, chosenIndex);
+  showFeedback(ok, q);
+  ui.score.textContent = String(score);
 }
 
-function onTimeout() {
-  if (locked) return;
-  lockAnswers(true);
-
-  const q = quiz[order[index]];
-  markButtons(q.correctIndex, null);
-
-  playSound("timeout");
-  showFeedback(false, q.correctIndex, q.explanation, "(temps écoulé)");
-}
-
-function next() {
-  stopTimer();
-  setDangerUI(false);
-
+function next(){
   index += 1;
-  if (index >= quiz.length) {
+  const pct = Math.round(((index) / MAX_PER_GAME) * 100);
+  ui.barFill.style.width = `${pct}%`;
+
+  if (index >= game.length){
     finish();
     return;
   }
   render();
 }
 
-function finish() {
-  stopTimer();
-  setDangerUI(false);
-
+function finish(){
   lockAnswers(true);
   ui.answers.innerHTML = "";
   ui.feedback.classList.add("hidden");
-  ui.question.textContent = `Terminé ✅ — Score final: ${score}/${quiz.length}`;
-  ui.progress.textContent = `${quiz.length}/${quiz.length}`;
+
+  ui.question.textContent = `Terminé ✅ — Score: ${score} points`;
+  ui.difficulty.textContent = "—";
+  ui.points.textContent = "0";
+  ui.progress.textContent = String(MAX_PER_GAME);
+  ui.barFill.style.width = "100%";
 }
 
-function restart() {
-  stopTimer();
-  setDangerUI(false);
-
+function startGame(){
   score = 0;
   index = 0;
-  order = shuffle([...Array(quiz.length).keys()]);
+
+  // mélange global + sélection 20
+  const shuffled = shuffle([...all]);
+  game = shuffled.slice(0, Math.min(MAX_PER_GAME, shuffled.length));
+
+  ui.score.textContent = "0";
+  ui.barFill.style.width = "0%";
   render();
 }
 
-/* ===========================
-   LOAD QUIZ
-   =========================== */
-async function loadQuiz() {
+async function loadQuiz(){
   const res = await fetch(QUIZ_URL);
   if (!res.ok) throw new Error("Impossible de charger le quiz JSON.");
   const data = await res.json();
 
-  if (!Array.isArray(data) || data.length !== 200) {
-    throw new Error("Le JSON doit être un tableau de 200 questions.");
+  if (!Array.isArray(data) || data.length < 20){
+    throw new Error("Le JSON doit contenir au moins 20 questions.");
   }
 
+  // validation minimale
   data.forEach((q, i) => {
-    if (typeof q.id !== "number") throw new Error(`Question ${i}: id invalide`);
-    if (typeof q.question !== "string") throw new Error(`Question ${i}: question invalide`);
-    if (!Array.isArray(q.answers) || q.answers.length !== 4) throw new Error(`Question ${i}: answers doit contenir 4 choix`);
-    if (typeof q.correctIndex !== "number" || q.correctIndex < 0 || q.correctIndex > 3) throw new Error(`Question ${i}: correctIndex invalide`);
-    if (typeof q.explanation !== "string" || !q.explanation.trim()) throw new Error(`Question ${i}: explication manquante`);
+    if (typeof q.question !== "string") throw new Error(`Q${i}: question invalide`);
+    if (!Array.isArray(q.answers) || q.answers.length !== 4) throw new Error(`Q${i}: answers doit contenir 4 choix`);
+    if (typeof q.correctIndex !== "number" || q.correctIndex < 0 || q.correctIndex > 3) throw new Error(`Q${i}: correctIndex invalide`);
+    if (typeof q.explanation !== "string" || !q.explanation.trim()) throw new Error(`Q${i}: explication manquante`);
   });
 
-  quiz = data;
-  order = shuffle([...Array(quiz.length).keys()]);
-  ui.progress.textContent = `0/${quiz.length}`;
-  ui.score.textContent = "Score: 0";
+  all = data;
+
+  ui.progress.textContent = "0";
+  ui.score.textContent = "0";
   ui.question.textContent = "Prêt. Clique “Démarrer”.";
 }
 
-/* ===========================
-   EVENTS
-   =========================== */
 ui.btnStart.addEventListener("click", () => {
-  if (!quiz.length) return;
-  restart();
+  if (!all.length) return;
+  startGame();
 });
-
 ui.btnRestart.addEventListener("click", () => {
-  if (!quiz.length) return;
-  restart();
+  if (!all.length) return;
+  startGame();
 });
-
 ui.btnNext.addEventListener("click", () => next());
 
-initTheme();
-
-loadQuiz().catch((err) => {
+loadQuiz().catch(err => {
   ui.question.textContent = "Erreur de chargement du quiz.";
-  ui.answers.innerHTML = "";
-  ui.feedback.classList.add("hidden");
   console.error(err);
 });
