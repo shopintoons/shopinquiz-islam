@@ -6,56 +6,82 @@
   <title>Quiz Islam — 200 Questions</title>
   <link rel="stylesheet" href="styles.css?v=999" />
 </head>
-<body>
-  <main class="wrap">
-    <header class="top">
-      <div>
-        <h1>Quiz Islam</h1>
-        <p class="sub">200 questions • timer 10s • réponses + explications</p>
+
+<body class="gameBg">
+  <main class="game">
+
+    <!-- TOP BAR -->
+    <header class="topBar">
+      <div class="topLeft">
+        <div class="chip">
+          ⏱ <span id="time">10</span>s
+        </div>
       </div>
-      <div class="pill">
-        <span id="progress">0/0</span>
-        <span class="dot">•</span>
-        <span id="score">Score: 0</span>
+
+      <div class="topCenter">Duel</div>
+
+      <div class="topRight">
+        <div class="chip">
+          🪙 <span id="coins">130</span>
+        </div>
       </div>
     </header>
 
-    <section class="card">
-      <div class="row">
-        <div class="timerBox">
-          <div class="timerLabel">Temps</div>
-          <div class="timerValue"><span id="time">10</span>s</div>
-          <div class="bar"><div id="barFill"></div></div>
+    <!-- DUEL BAR -->
+    <section class="duelBar">
+      <img class="avatar" src="assets/avatars/left.png" alt="joueur" />
+      <div class="track">
+        <div id="duelFill" class="fill"></div>
+        <div class="dots">
+          <span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+      <img class="avatar" src="assets/avatars/right.png" alt="adversaire" />
+    </section>
+
+    <!-- CARD QUESTION -->
+    <section class="qCard">
+      <div class="qHead">
+        <div class="qImgWrap">
+          <img id="qImg" class="qImg" src="assets/images/default.png" alt="illustration" />
         </div>
 
-        <div class="controls">
-  <button id="btnStart" class="btn primary">Démarrer</button>
-  <button id="btnRestart" class="btn">Recommencer</button>
-
-  <button id="btnTheme" class="btn" type="button">🌙 Sombre</button>
-
-  <label class="toggle">
-    <input id="toggleSound" type="checkbox" checked />
-    <span>Sons</span>
-  </label>
-</div>
-
-      </div>
-
-      <h2 id="question" class="q">Clique “Démarrer”.</h2>
-
-      <div id="answers" class="answers"></div>
-
-      <div id="feedback" class="feedback hidden">
-        <div id="resultLine" class="resultLine"></div>
-        <div id="explanation" class="explain"></div>
-        <button id="btnNext" class="btn primary">Question suivante</button>
+        <div class="qTextWrap">
+          <div class="metaLine">
+            <span id="progress" class="meta">0/200</span>
+            <span class="sep">•</span>
+            <span id="score" class="meta">Score: 0</span>
+          </div>
+          <h2 id="question" class="qTitle">Prêt. Clique “Démarrer”.</h2>
+        </div>
       </div>
     </section>
 
-    <footer class="foot">
-      <small>Données: Coran + Sunna authentique + bases consensuelles (pas de sujets polémiques).</small>
-    </footer>
+    <!-- ANSWERS -->
+    <section id="answers" class="answersStack"></section>
+
+    <!-- JOKER -->
+    <div class="bottomActions">
+      <button id="btnJoker" class="jokerBtn" type="button">🃏 Joker</button>
+    </div>
+
+    <!-- HIDDEN FEEDBACK (garde ton système) -->
+    <section id="feedback" class="feedback hidden">
+      <div id="resultLine" class="resultLine"></div>
+      <div id="explanation" class="explain"></div>
+      <button id="btnNext" class="btnNext" type="button">Question suivante</button>
+    </section>
+
+    <!-- Start/Restart (tu peux les garder, ou les cacher) -->
+    <div class="devControls">
+      <button id="btnStart" class="devBtn" type="button">Démarrer</button>
+      <button id="btnRestart" class="devBtn" type="button">Recommencer</button>
+      <label class="devToggle">
+        <input id="toggleSound" type="checkbox" checked />
+        <span>Sons</span>
+      </label>
+    </div>
+
   </main>
 
   <script src="app.js"></script>
