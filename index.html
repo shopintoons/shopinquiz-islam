@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz Islam — 200 Questions</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <div>
+        <h1>Quiz Islam</h1>
+        <p class="sub">200 questions • timer 10s • réponses + explications</p>
+      </div>
+      <div class="pill">
+        <span id="progress">0/0</span>
+        <span class="dot">•</span>
+        <span id="score">Score: 0</span>
+      </div>
+    </header>
+
+    <section class="card">
+      <div class="row">
+        <div class="timerBox">
+          <div class="timerLabel">Temps</div>
+          <div class="timerValue"><span id="time">10</span>s</div>
+          <div class="bar"><div id="barFill"></div></div>
+        </div>
+
+        <div class="controls">
+          <button id="btnStart" class="btn primary">Démarrer</button>
+          <button id="btnRestart" class="btn">Recommencer</button>
+          <label class="toggle">
+            <input id="toggleSound" type="checkbox" checked />
+            <span>Sons</span>
+          </label>
+        </div>
+      </div>
+
+      <h2 id="question" class="q">Clique “Démarrer”.</h2>
+
+      <div id="answers" class="answers"></div>
+
+      <div id="feedback" class="feedback hidden">
+        <div id="resultLine" class="resultLine"></div>
+        <div id="explanation" class="explain"></div>
+        <button id="btnNext" class="btn primary">Question suivante</button>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <small>Données: Coran + Sunna authentique + bases consensuelles (pas de sujets polémiques).</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

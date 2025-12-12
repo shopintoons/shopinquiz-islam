@@ -1,0 +1,2402 @@
+[
+  {
+    "id": 1,
+    "question": "Combien de piliers compte l’islam ?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "L’islam repose sur cinq piliers."
+  },
+  {
+    "id": 2,
+    "question": "Quel est le premier pilier de l’islam ?",
+    "answers": [
+      "La prière (salat)",
+      "Le jeûne (sawm)",
+      "La zakat",
+      "La shahada"
+    ],
+    "correctIndex": 3,
+    "explanation": "La shahada est l’attestation de foi."
+  },
+  {
+    "id": 3,
+    "question": "Quel est le livre révélé à Muhammad ﷺ ?",
+    "answers": [
+      "La Torah",
+      "L’Évangile",
+      "Le Coran",
+      "Le Zabour"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le Coran est la révélation finale."
+  },
+  {
+    "id": 4,
+    "question": "En quelle langue le Coran a-t-il été révélé ?",
+    "answers": [
+      "Hébreu",
+      "Arabe",
+      "Grec",
+      "Latin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Coran a été révélé en arabe."
+  },
+  {
+    "id": 5,
+    "question": "Combien de prières obligatoires par jour ?",
+    "answers": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Il y a cinq prières obligatoires quotidiennes."
+  },
+  {
+    "id": 6,
+    "question": "Quelle est la prière de l’aube ?",
+    "answers": [
+      "Dhuhr",
+      "Asr",
+      "Fajr",
+      "Isha"
+    ],
+    "correctIndex": 2,
+    "explanation": "Fajr se prie à l’aube."
+  },
+  {
+    "id": 7,
+    "question": "Quelle est la prière de midi ?",
+    "answers": [
+      "Fajr",
+      "Dhuhr",
+      "Maghrib",
+      "Isha"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dhuhr se prie en milieu de journée."
+  },
+  {
+    "id": 8,
+    "question": "Quelle est la prière de l’après-midi ?",
+    "answers": [
+      "Asr",
+      "Maghrib",
+      "Isha",
+      "Witr"
+    ],
+    "correctIndex": 0,
+    "explanation": "Asr se prie l’après-midi."
+  },
+  {
+    "id": 9,
+    "question": "Quelle est la prière du coucher du soleil ?",
+    "answers": [
+      "Fajr",
+      "Dhuhr",
+      "Maghrib",
+      "Isha"
+    ],
+    "correctIndex": 2,
+    "explanation": "Maghrib se prie au coucher du soleil."
+  },
+  {
+    "id": 10,
+    "question": "Quelle est la prière de la nuit ?",
+    "answers": [
+      "Duha",
+      "Isha",
+      "Asr",
+      "Jumu'a"
+    ],
+    "correctIndex": 1,
+    "explanation": "Isha se prie le soir."
+  },
+  {
+    "id": 11,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Muharram",
+      "Ramadan",
+      "Safar",
+      "Dhul Qa'da"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 12,
+    "question": "Comment s’appelle l’aumône obligatoire ?",
+    "answers": [
+      "Sadaqa",
+      "Zakat",
+      "Waqf",
+      "Fidyah"
+    ],
+    "correctIndex": 1,
+    "explanation": "La zakat est un pilier de l’islam."
+  },
+  {
+    "id": 13,
+    "question": "Quel est le pèlerinage obligatoire si on en a les moyens ?",
+    "answers": [
+      "Omra",
+      "Hajj",
+      "I'tikaf",
+      "Ziyarah"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj est obligatoire si on en a la capacité."
+  },
+  {
+    "id": 14,
+    "question": "Vers quelle direction les musulmans prient-ils ?",
+    "answers": [
+      "Médine",
+      "Jérusalem",
+      "La Kaaba",
+      "Le mont Sinaï"
+    ],
+    "correctIndex": 2,
+    "explanation": "La qibla est la Kaaba à La Mecque."
+  },
+  {
+    "id": 15,
+    "question": "Combien de sourates compte le Coran ?",
+    "answers": [
+      "100",
+      "110",
+      "114",
+      "120"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le Coran contient 114 sourates."
+  },
+  {
+    "id": 16,
+    "question": "Quelle sourate ouvre le Coran ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Fatiha",
+      "Al-Ikhlas",
+      "An-Nas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Al-Fatiha est la sourate d’ouverture."
+  },
+  {
+    "id": 17,
+    "question": "Quelle est la dernière sourate du Coran ?",
+    "answers": [
+      "Al-Falaq",
+      "Al-Ikhlas",
+      "An-Nas",
+      "Al-Kawthar"
+    ],
+    "correctIndex": 2,
+    "explanation": "An-Nas est la dernière sourate."
+  },
+  {
+    "id": 18,
+    "question": "Quel ange a transmis la révélation à Muhammad ﷺ ?",
+    "answers": [
+      "Mikail",
+      "Jibril",
+      "Israfil",
+      "Malik"
+    ],
+    "correctIndex": 1,
+    "explanation": "Jibril est l’ange de la révélation."
+  },
+  {
+    "id": 19,
+    "question": "Combien de piliers de la foi (iman) ?",
+    "answers": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "La foi comporte six piliers."
+  },
+  {
+    "id": 20,
+    "question": "Croire aux anges fait partie de…",
+    "answers": [
+      "L’islam",
+      "L’iman",
+      "La zakat",
+      "Le Hajj"
+    ],
+    "correctIndex": 1,
+    "explanation": "Croire aux anges est un pilier de la foi."
+  },
+  {
+    "id": 21,
+    "question": "Croire aux Livres révélés fait partie de…",
+    "answers": [
+      "L’iman",
+      "La salat",
+      "Le sawm",
+      "La zakat"
+    ],
+    "correctIndex": 0,
+    "explanation": "Les Livres révélés font partie de la foi."
+  },
+  {
+    "id": 22,
+    "question": "Croire aux prophètes fait partie de…",
+    "answers": [
+      "La sunna",
+      "L’iman",
+      "La omra",
+      "Le fiqh"
+    ],
+    "correctIndex": 1,
+    "explanation": "Les prophètes font partie de la foi."
+  },
+  {
+    "id": 23,
+    "question": "Croire au Jour dernier fait partie de…",
+    "answers": [
+      "L’iman",
+      "La salat",
+      "Le wudu",
+      "La hijra"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Jour dernier est un pilier de la foi."
+  },
+  {
+    "id": 24,
+    "question": "Croire au destin (qadar) fait partie de…",
+    "answers": [
+      "La zakat",
+      "L’iman",
+      "Le hajj",
+      "Le tawaf"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le destin est un pilier de la foi."
+  },
+  {
+    "id": 25,
+    "question": "Que signifie Islam (sens général) ?",
+    "answers": [
+      "Richesse",
+      "Soumission",
+      "Tristesse",
+      "Victoire"
+    ],
+    "correctIndex": 1,
+    "explanation": "Islam signifie soumission à Allah."
+  },
+  {
+    "id": 26,
+    "question": "Que signifie Iman ?",
+    "answers": [
+      "Foi",
+      "Peur",
+      "Voyage",
+      "Jeûne"
+    ],
+    "correctIndex": 0,
+    "explanation": "Iman signifie la foi."
+  },
+  {
+    "id": 27,
+    "question": "Que signifie Ihsan ?",
+    "answers": [
+      "Excellence dans l’adoration",
+      "Argent",
+      "Commerce",
+      "Langue arabe"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ihsan = adorer Allah avec excellence."
+  },
+  {
+    "id": 28,
+    "question": "Quel est le plus grave péché en islam ?",
+    "answers": [
+      "Le vol",
+      "Le mensonge",
+      "Le shirk",
+      "La paresse"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le shirk est le péché le plus grave."
+  },
+  {
+    "id": 29,
+    "question": "Que signifie shirk ?",
+    "answers": [
+      "Charité",
+      "Association à Allah",
+      "Prière",
+      "Jeûne"
+    ],
+    "correctIndex": 1,
+    "explanation": "Shirk = associer à Allah dans l’adoration."
+  },
+  {
+    "id": 30,
+    "question": "Quel est le nom de la migration de La Mecque à Médine ?",
+    "answers": [
+      "Hijra",
+      "Omra",
+      "Tawaf",
+      "Sa’i"
+    ],
+    "correctIndex": 0,
+    "explanation": "La migration s’appelle la Hijra."
+  },
+  {
+    "id": 31,
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 32,
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 33,
+    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Asr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 34,
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
+  },
+  {
+    "id": 35,
+    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isha a 4 raka'at obligatoires."
+  },
+  {
+    "id": 36,
+    "question": "Combien de tours fait-on au tawaf ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le tawaf se fait en 7 tours."
+  },
+  {
+    "id": 37,
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "answers": [
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+  },
+  {
+    "id": 38,
+    "question": "Quel est le mois du Hajj ?",
+    "answers": [
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj se fait en Dhul Hijja."
+  },
+  {
+    "id": 39,
+    "question": "Quel est le salut islamique ?",
+    "answers": [
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le salut est “As-Salamu alaykum”."
+  },
+  {
+    "id": 40,
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "answers": [
+      "Merci",
+      "Wa alaykum as-salam",
+      "À bientôt",
+      "Amin"
+    ],
+    "correctIndex": 1,
+    "explanation": "On répond “Wa alaykum as-salam”."
+  },
+  {
+    "id": 41,
+    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "answers": [
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayat al-Kursi est le verset 2:255."
+  },
+  {
+    "id": 42,
+    "question": "Quelle sourate est la plus longue ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
+  },
+  {
+    "id": 43,
+    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "answers": [
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
+    ],
+    "correctIndex": 1,
+    "explanation": "At-Tawba est l’exception connue."
+  },
+  {
+    "id": 44,
+    "question": "Que signifie Tawhid ?",
+    "answers": [
+      "Unicité d’Allah",
+      "Commerce",
+      "Voyage",
+      "Peine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+  },
+  {
+    "id": 45,
+    "question": "Que signifie Taqwa ?",
+    "answers": [
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taqwa = piété et conscience d’Allah."
+  },
+  {
+    "id": 46,
+    "question": "Que signifie Sabr ?",
+    "answers": [
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sabr signifie patience."
+  },
+  {
+    "id": 47,
+    "question": "Que signifie Ikhlas ?",
+    "answers": [
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ikhlas = sincérité envers Allah."
+  },
+  {
+    "id": 48,
+    "question": "Quel est le dernier prophète ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Muhammad ﷺ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
+  },
+  {
+    "id": 49,
+    "question": "Quel prophète a reçu la Torah ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Nuh"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Torah a été révélée à Moussa."
+  },
+  {
+    "id": 50,
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "answers": [
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Ibrahim"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
+  },
+  {
+    "id": 51,
+    "question": "Quel prophète a reçu le Zabour ?",
+    "answers": [
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Yunus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Zabour a été donné à Dawud."
+  },
+  {
+    "id": 52,
+    "question": "Quel prophète a construit l’arche ?",
+    "answers": [
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
+  },
+  {
+    "id": 53,
+    "question": "Quel prophète est connu pour sa patience ?",
+    "answers": [
+      "Ayoub",
+      "Yusuf",
+      "Dawud",
+      "Lut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayoub est un exemple de patience."
+  },
+  {
+    "id": 54,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Rajab",
+      "Chaaban",
+      "Ramadan",
+      "Dhul Hijja"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 55,
+    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Toujours",
+      "Jamais"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manger par oubli n’annule pas le jeûne."
+  },
+  {
+    "id": 56,
+    "question": "Quelle est la prière du vendredi ?",
+    "answers": [
+      "Salat al-Jumu'a",
+      "Salat al-Janaza",
+      "Salat al-Eid",
+      "Salat ad-Duha"
+    ],
+    "correctIndex": 0,
+    "explanation": "La prière du vendredi est Jumu'a."
+  },
+  {
+    "id": 57,
+    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "answers": [
+      "Jérusalem",
+      "Médine",
+      "La Mecque",
+      "Damas"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Kaaba se trouve à La Mecque."
+  },
+  {
+    "id": 58,
+    "question": "Comment s’appelle la Kaaba ?",
+    "answers": [
+      "Minbar",
+      "Kaaba",
+      "Mihrab",
+      "Safa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+  },
+  {
+    "id": 59,
+    "question": "Quel est le message central de l’islam ?",
+    "answers": [
+      "Paix",
+      "Règles",
+      "Tawhid",
+      "Richesse"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le cœur du message est l’unicité d’Allah."
+  },
+  {
+    "id": 60,
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 61,
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 62,
+    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Asr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 63,
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
+  },
+  {
+    "id": 64,
+    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isha a 4 raka'at obligatoires."
+  },
+  {
+    "id": 65,
+    "question": "Combien de tours fait-on au tawaf ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le tawaf se fait en 7 tours."
+  },
+  {
+    "id": 66,
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "answers": [
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+  },
+  {
+    "id": 67,
+    "question": "Quel est le mois du Hajj ?",
+    "answers": [
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj se fait en Dhul Hijja."
+  },
+  {
+    "id": 68,
+    "question": "Quel est le salut islamique ?",
+    "answers": [
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le salut est “As-Salamu alaykum”."
+  },
+  {
+    "id": 69,
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "answers": [
+      "Merci",
+      "Wa alaykum as-salam",
+      "À bientôt",
+      "Amin"
+    ],
+    "correctIndex": 1,
+    "explanation": "On répond “Wa alaykum as-salam”."
+  },
+  {
+    "id": 70,
+    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "answers": [
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayat al-Kursi est le verset 2:255."
+  },
+  {
+    "id": 71,
+    "question": "Quelle sourate est la plus longue ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
+  },
+  {
+    "id": 72,
+    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "answers": [
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
+    ],
+    "correctIndex": 1,
+    "explanation": "At-Tawba est l’exception connue."
+  },
+  {
+    "id": 73,
+    "question": "Que signifie Tawhid ?",
+    "answers": [
+      "Unicité d’Allah",
+      "Commerce",
+      "Voyage",
+      "Peine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+  },
+  {
+    "id": 74,
+    "question": "Que signifie Taqwa ?",
+    "answers": [
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taqwa = piété et conscience d’Allah."
+  },
+  {
+    "id": 75,
+    "question": "Que signifie Sabr ?",
+    "answers": [
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sabr signifie patience."
+  },
+  {
+    "id": 76,
+    "question": "Que signifie Ikhlas ?",
+    "answers": [
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ikhlas = sincérité envers Allah."
+  },
+  {
+    "id": 77,
+    "question": "Quel est le dernier prophète ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Muhammad ﷺ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
+  },
+  {
+    "id": 78,
+    "question": "Quel prophète a reçu la Torah ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Nuh"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Torah a été révélée à Moussa."
+  },
+  {
+    "id": 79,
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "answers": [
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Ibrahim"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
+  },
+  {
+    "id": 80,
+    "question": "Quel prophète a reçu le Zabour ?",
+    "answers": [
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Yunus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Zabour a été donné à Dawud."
+  },
+  {
+    "id": 81,
+    "question": "Quel prophète a construit l’arche ?",
+    "answers": [
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
+  },
+  {
+    "id": 82,
+    "question": "Quel prophète est connu pour sa patience ?",
+    "answers": [
+      "Ayoub",
+      "Yusuf",
+      "Dawud",
+      "Lut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayoub est un exemple de patience."
+  },
+  {
+    "id": 83,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Rajab",
+      "Chaaban",
+      "Ramadan",
+      "Dhul Hijja"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 84,
+    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Toujours",
+      "Jamais"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manger par oubli n’annule pas le jeûne."
+  },
+  {
+    "id": 85,
+    "question": "Quelle est la prière du vendredi ?",
+    "answers": [
+      "Salat al-Jumu'a",
+      "Salat al-Janaza",
+      "Salat al-Eid",
+      "Salat ad-Duha"
+    ],
+    "correctIndex": 0,
+    "explanation": "La prière du vendredi est Jumu'a."
+  },
+  {
+    "id": 86,
+    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "answers": [
+      "Jérusalem",
+      "Médine",
+      "La Mecque",
+      "Damas"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Kaaba se trouve à La Mecque."
+  },
+  {
+    "id": 87,
+    "question": "Comment s’appelle la Kaaba ?",
+    "answers": [
+      "Minbar",
+      "Kaaba",
+      "Mihrab",
+      "Safa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+  },
+  {
+    "id": 88,
+    "question": "Quel est le message central de l’islam ?",
+    "answers": [
+      "Paix",
+      "Règles",
+      "Tawhid",
+      "Richesse"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le cœur du message est l’unicité d’Allah."
+  },
+  {
+    "id": 89,
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 90,
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 91,
+    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Asr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 92,
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
+  },
+  {
+    "id": 93,
+    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isha a 4 raka'at obligatoires."
+  },
+  {
+    "id": 94,
+    "question": "Combien de tours fait-on au tawaf ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le tawaf se fait en 7 tours."
+  },
+  {
+    "id": 95,
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "answers": [
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+  },
+  {
+    "id": 96,
+    "question": "Quel est le mois du Hajj ?",
+    "answers": [
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj se fait en Dhul Hijja."
+  },
+  {
+    "id": 97,
+    "question": "Quel est le salut islamique ?",
+    "answers": [
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le salut est “As-Salamu alaykum”."
+  },
+  {
+    "id": 98,
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "answers": [
+      "Merci",
+      "Wa alaykum as-salam",
+      "À bientôt",
+      "Amin"
+    ],
+    "correctIndex": 1,
+    "explanation": "On répond “Wa alaykum as-salam”."
+  },
+  {
+    "id": 99,
+    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "answers": [
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayat al-Kursi est le verset 2:255."
+  },
+  {
+    "id": 100,
+    "question": "Quelle sourate est la plus longue ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
+  },
+  {
+    "id": 101,
+    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "answers": [
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
+    ],
+    "correctIndex": 1,
+    "explanation": "At-Tawba est l’exception connue."
+  },
+  {
+    "id": 102,
+    "question": "Que signifie Tawhid ?",
+    "answers": [
+      "Unicité d’Allah",
+      "Commerce",
+      "Voyage",
+      "Peine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+  },
+  {
+    "id": 103,
+    "question": "Que signifie Taqwa ?",
+    "answers": [
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taqwa = piété et conscience d’Allah."
+  },
+  {
+    "id": 104,
+    "question": "Que signifie Sabr ?",
+    "answers": [
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sabr signifie patience."
+  },
+  {
+    "id": 105,
+    "question": "Que signifie Ikhlas ?",
+    "answers": [
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ikhlas = sincérité envers Allah."
+  },
+  {
+    "id": 106,
+    "question": "Quel est le dernier prophète ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Muhammad ﷺ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
+  },
+  {
+    "id": 107,
+    "question": "Quel prophète a reçu la Torah ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Nuh"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Torah a été révélée à Moussa."
+  },
+  {
+    "id": 108,
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "answers": [
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Ibrahim"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
+  },
+  {
+    "id": 109,
+    "question": "Quel prophète a reçu le Zabour ?",
+    "answers": [
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Yunus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Zabour a été donné à Dawud."
+  },
+  {
+    "id": 110,
+    "question": "Quel prophète a construit l’arche ?",
+    "answers": [
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
+  },
+  {
+    "id": 111,
+    "question": "Quel prophète est connu pour sa patience ?",
+    "answers": [
+      "Ayoub",
+      "Yusuf",
+      "Dawud",
+      "Lut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayoub est un exemple de patience."
+  },
+  {
+    "id": 112,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Rajab",
+      "Chaaban",
+      "Ramadan",
+      "Dhul Hijja"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 113,
+    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Toujours",
+      "Jamais"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manger par oubli n’annule pas le jeûne."
+  },
+  {
+    "id": 114,
+    "question": "Quelle est la prière du vendredi ?",
+    "answers": [
+      "Salat al-Jumu'a",
+      "Salat al-Janaza",
+      "Salat al-Eid",
+      "Salat ad-Duha"
+    ],
+    "correctIndex": 0,
+    "explanation": "La prière du vendredi est Jumu'a."
+  },
+  {
+    "id": 115,
+    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "answers": [
+      "Jérusalem",
+      "Médine",
+      "La Mecque",
+      "Damas"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Kaaba se trouve à La Mecque."
+  },
+  {
+    "id": 116,
+    "question": "Comment s’appelle la Kaaba ?",
+    "answers": [
+      "Minbar",
+      "Kaaba",
+      "Mihrab",
+      "Safa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+  },
+  {
+    "id": 117,
+    "question": "Quel est le message central de l’islam ?",
+    "answers": [
+      "Paix",
+      "Règles",
+      "Tawhid",
+      "Richesse"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le cœur du message est l’unicité d’Allah."
+  },
+  {
+    "id": 118,
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 119,
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 120,
+    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Asr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 121,
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
+  },
+  {
+    "id": 122,
+    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isha a 4 raka'at obligatoires."
+  },
+  {
+    "id": 123,
+    "question": "Combien de tours fait-on au tawaf ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le tawaf se fait en 7 tours."
+  },
+  {
+    "id": 124,
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "answers": [
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+  },
+  {
+    "id": 125,
+    "question": "Quel est le mois du Hajj ?",
+    "answers": [
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj se fait en Dhul Hijja."
+  },
+  {
+    "id": 126,
+    "question": "Quel est le salut islamique ?",
+    "answers": [
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le salut est “As-Salamu alaykum”."
+  },
+  {
+    "id": 127,
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "answers": [
+      "Merci",
+      "Wa alaykum as-salam",
+      "À bientôt",
+      "Amin"
+    ],
+    "correctIndex": 1,
+    "explanation": "On répond “Wa alaykum as-salam”."
+  },
+  {
+    "id": 128,
+    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "answers": [
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayat al-Kursi est le verset 2:255."
+  },
+  {
+    "id": 129,
+    "question": "Quelle sourate est la plus longue ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
+  },
+  {
+    "id": 130,
+    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "answers": [
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
+    ],
+    "correctIndex": 1,
+    "explanation": "At-Tawba est l’exception connue."
+  },
+  {
+    "id": 131,
+    "question": "Que signifie Tawhid ?",
+    "answers": [
+      "Unicité d’Allah",
+      "Commerce",
+      "Voyage",
+      "Peine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+  },
+  {
+    "id": 132,
+    "question": "Que signifie Taqwa ?",
+    "answers": [
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taqwa = piété et conscience d’Allah."
+  },
+  {
+    "id": 133,
+    "question": "Que signifie Sabr ?",
+    "answers": [
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sabr signifie patience."
+  },
+  {
+    "id": 134,
+    "question": "Que signifie Ikhlas ?",
+    "answers": [
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ikhlas = sincérité envers Allah."
+  },
+  {
+    "id": 135,
+    "question": "Quel est le dernier prophète ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Muhammad ﷺ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
+  },
+  {
+    "id": 136,
+    "question": "Quel prophète a reçu la Torah ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Nuh"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Torah a été révélée à Moussa."
+  },
+  {
+    "id": 137,
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "answers": [
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Ibrahim"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
+  },
+  {
+    "id": 138,
+    "question": "Quel prophète a reçu le Zabour ?",
+    "answers": [
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Yunus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Zabour a été donné à Dawud."
+  },
+  {
+    "id": 139,
+    "question": "Quel prophète a construit l’arche ?",
+    "answers": [
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
+  },
+  {
+    "id": 140,
+    "question": "Quel prophète est connu pour sa patience ?",
+    "answers": [
+      "Ayoub",
+      "Yusuf",
+      "Dawud",
+      "Lut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayoub est un exemple de patience."
+  },
+  {
+    "id": 141,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Rajab",
+      "Chaaban",
+      "Ramadan",
+      "Dhul Hijja"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 142,
+    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Toujours",
+      "Jamais"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manger par oubli n’annule pas le jeûne."
+  },
+  {
+    "id": 143,
+    "question": "Quelle est la prière du vendredi ?",
+    "answers": [
+      "Salat al-Jumu'a",
+      "Salat al-Janaza",
+      "Salat al-Eid",
+      "Salat ad-Duha"
+    ],
+    "correctIndex": 0,
+    "explanation": "La prière du vendredi est Jumu'a."
+  },
+  {
+    "id": 144,
+    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "answers": [
+      "Jérusalem",
+      "Médine",
+      "La Mecque",
+      "Damas"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Kaaba se trouve à La Mecque."
+  },
+  {
+    "id": 145,
+    "question": "Comment s’appelle la Kaaba ?",
+    "answers": [
+      "Minbar",
+      "Kaaba",
+      "Mihrab",
+      "Safa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+  },
+  {
+    "id": 146,
+    "question": "Quel est le message central de l’islam ?",
+    "answers": [
+      "Paix",
+      "Règles",
+      "Tawhid",
+      "Richesse"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le cœur du message est l’unicité d’Allah."
+  },
+  {
+    "id": 147,
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 148,
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 149,
+    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Asr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 150,
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
+  },
+  {
+    "id": 151,
+    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isha a 4 raka'at obligatoires."
+  },
+  {
+    "id": 152,
+    "question": "Combien de tours fait-on au tawaf ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le tawaf se fait en 7 tours."
+  },
+  {
+    "id": 153,
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "answers": [
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+  },
+  {
+    "id": 154,
+    "question": "Quel est le mois du Hajj ?",
+    "answers": [
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj se fait en Dhul Hijja."
+  },
+  {
+    "id": 155,
+    "question": "Quel est le salut islamique ?",
+    "answers": [
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le salut est “As-Salamu alaykum”."
+  },
+  {
+    "id": 156,
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "answers": [
+      "Merci",
+      "Wa alaykum as-salam",
+      "À bientôt",
+      "Amin"
+    ],
+    "correctIndex": 1,
+    "explanation": "On répond “Wa alaykum as-salam”."
+  },
+  {
+    "id": 157,
+    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "answers": [
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayat al-Kursi est le verset 2:255."
+  },
+  {
+    "id": 158,
+    "question": "Quelle sourate est la plus longue ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
+  },
+  {
+    "id": 159,
+    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "answers": [
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
+    ],
+    "correctIndex": 1,
+    "explanation": "At-Tawba est l’exception connue."
+  },
+  {
+    "id": 160,
+    "question": "Que signifie Tawhid ?",
+    "answers": [
+      "Unicité d’Allah",
+      "Commerce",
+      "Voyage",
+      "Peine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+  },
+  {
+    "id": 161,
+    "question": "Que signifie Taqwa ?",
+    "answers": [
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taqwa = piété et conscience d’Allah."
+  },
+  {
+    "id": 162,
+    "question": "Que signifie Sabr ?",
+    "answers": [
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sabr signifie patience."
+  },
+  {
+    "id": 163,
+    "question": "Que signifie Ikhlas ?",
+    "answers": [
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ikhlas = sincérité envers Allah."
+  },
+  {
+    "id": 164,
+    "question": "Quel est le dernier prophète ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Muhammad ﷺ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
+  },
+  {
+    "id": 165,
+    "question": "Quel prophète a reçu la Torah ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Nuh"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Torah a été révélée à Moussa."
+  },
+  {
+    "id": 166,
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "answers": [
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Ibrahim"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
+  },
+  {
+    "id": 167,
+    "question": "Quel prophète a reçu le Zabour ?",
+    "answers": [
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Yunus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Zabour a été donné à Dawud."
+  },
+  {
+    "id": 168,
+    "question": "Quel prophète a construit l’arche ?",
+    "answers": [
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
+  },
+  {
+    "id": 169,
+    "question": "Quel prophète est connu pour sa patience ?",
+    "answers": [
+      "Ayoub",
+      "Yusuf",
+      "Dawud",
+      "Lut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayoub est un exemple de patience."
+  },
+  {
+    "id": 170,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Rajab",
+      "Chaaban",
+      "Ramadan",
+      "Dhul Hijja"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 171,
+    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Toujours",
+      "Jamais"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manger par oubli n’annule pas le jeûne."
+  },
+  {
+    "id": 172,
+    "question": "Quelle est la prière du vendredi ?",
+    "answers": [
+      "Salat al-Jumu'a",
+      "Salat al-Janaza",
+      "Salat al-Eid",
+      "Salat ad-Duha"
+    ],
+    "correctIndex": 0,
+    "explanation": "La prière du vendredi est Jumu'a."
+  },
+  {
+    "id": 173,
+    "question": "Quel est le lieu le plus sacré de l’islam ?",
+    "answers": [
+      "Jérusalem",
+      "Médine",
+      "La Mecque",
+      "Damas"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Kaaba se trouve à La Mecque."
+  },
+  {
+    "id": 174,
+    "question": "Comment s’appelle la Kaaba ?",
+    "answers": [
+      "Minbar",
+      "Kaaba",
+      "Mihrab",
+      "Safa"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Kaaba est le sanctuaire à La Mecque."
+  },
+  {
+    "id": 175,
+    "question": "Quel est le message central de l’islam ?",
+    "answers": [
+      "Paix",
+      "Règles",
+      "Tawhid",
+      "Richesse"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le cœur du message est l’unicité d’Allah."
+  },
+  {
+    "id": 176,
+    "question": "Combien de raka'at obligatoires pour Fajr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fajr a 2 raka'at obligatoires."
+  },
+  {
+    "id": 177,
+    "question": "Combien de raka'at obligatoires pour Dhuhr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dhuhr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 178,
+    "question": "Combien de raka'at obligatoires pour Asr ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Asr a 4 raka'at obligatoires."
+  },
+  {
+    "id": 179,
+    "question": "Combien de raka'at obligatoires pour Maghrib ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Maghrib a 3 raka'at obligatoires."
+  },
+  {
+    "id": 180,
+    "question": "Combien de raka'at obligatoires pour Isha ?",
+    "answers": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Isha a 4 raka'at obligatoires."
+  },
+  {
+    "id": 181,
+    "question": "Combien de tours fait-on au tawaf ?",
+    "answers": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le tawaf se fait en 7 tours."
+  },
+  {
+    "id": 182,
+    "question": "Comment s’appelle la marche entre Safa et Marwa ?",
+    "answers": [
+      "Sa’i",
+      "Jamrat",
+      "Ihram",
+      "Qunut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Sa’i fait partie du Hajj et de la Omra."
+  },
+  {
+    "id": 183,
+    "question": "Quel est le mois du Hajj ?",
+    "answers": [
+      "Ramadan",
+      "Dhul Hijja",
+      "Safar",
+      "Rajab"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le Hajj se fait en Dhul Hijja."
+  },
+  {
+    "id": 184,
+    "question": "Quel est le salut islamique ?",
+    "answers": [
+      "Bonjour",
+      "As-Salamu alaykum",
+      "Salut",
+      "Coucou"
+    ],
+    "correctIndex": 1,
+    "explanation": "Le salut est “As-Salamu alaykum”."
+  },
+  {
+    "id": 185,
+    "question": "Que répond-on à “As-Salamu alaykum” ?",
+    "answers": [
+      "Merci",
+      "Wa alaykum as-salam",
+      "À bientôt",
+      "Amin"
+    ],
+    "correctIndex": 1,
+    "explanation": "On répond “Wa alaykum as-salam”."
+  },
+  {
+    "id": 186,
+    "question": "Quel est le verset appelé Ayat al-Kursi ?",
+    "answers": [
+      "2:255",
+      "1:1",
+      "112:1",
+      "114:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayat al-Kursi est le verset 2:255."
+  },
+  {
+    "id": 187,
+    "question": "Quelle sourate est la plus longue ?",
+    "answers": [
+      "Al-Baqara",
+      "Al-Imran",
+      "An-Nisa",
+      "Al-A'raf"
+    ],
+    "correctIndex": 0,
+    "explanation": "Al-Baqara est la plus longue sourate."
+  },
+  {
+    "id": 188,
+    "question": "Quelle sourate ne commence pas par la basmala ?",
+    "answers": [
+      "Al-Fatiha",
+      "At-Tawba",
+      "An-Nas",
+      "Al-Fil"
+    ],
+    "correctIndex": 1,
+    "explanation": "At-Tawba est l’exception connue."
+  },
+  {
+    "id": 189,
+    "question": "Que signifie Tawhid ?",
+    "answers": [
+      "Unicité d’Allah",
+      "Commerce",
+      "Voyage",
+      "Peine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tawhid = affirmer l’unicité d’Allah."
+  },
+  {
+    "id": 190,
+    "question": "Que signifie Taqwa ?",
+    "answers": [
+      "Piété / conscience d’Allah",
+      "Richesse",
+      "Guerre",
+      "Fatigue"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taqwa = piété et conscience d’Allah."
+  },
+  {
+    "id": 191,
+    "question": "Que signifie Sabr ?",
+    "answers": [
+      "Patience",
+      "Colère",
+      "Envie",
+      "Oubli"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sabr signifie patience."
+  },
+  {
+    "id": 192,
+    "question": "Que signifie Ikhlas ?",
+    "answers": [
+      "Sincérité",
+      "Ruse",
+      "Peur",
+      "Bruit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ikhlas = sincérité envers Allah."
+  },
+  {
+    "id": 193,
+    "question": "Quel est le dernier prophète ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Muhammad ﷺ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Muhammad ﷺ est le dernier prophète."
+  },
+  {
+    "id": 194,
+    "question": "Quel prophète a reçu la Torah ?",
+    "answers": [
+      "Issa",
+      "Moussa",
+      "Ibrahim",
+      "Nuh"
+    ],
+    "correctIndex": 1,
+    "explanation": "La Torah a été révélée à Moussa."
+  },
+  {
+    "id": 195,
+    "question": "Quel prophète a reçu l’Évangile (Injil) ?",
+    "answers": [
+      "Moussa",
+      "Issa",
+      "Dawud",
+      "Ibrahim"
+    ],
+    "correctIndex": 1,
+    "explanation": "L’Injil a été révélé à Issa."
+  },
+  {
+    "id": 196,
+    "question": "Quel prophète a reçu le Zabour ?",
+    "answers": [
+      "Dawud",
+      "Yusuf",
+      "Nuh",
+      "Yunus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Le Zabour a été donné à Dawud."
+  },
+  {
+    "id": 197,
+    "question": "Quel prophète a construit l’arche ?",
+    "answers": [
+      "Nuh",
+      "Ibrahim",
+      "Moussa",
+      "Issa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nuh a construit l’arche."
+  },
+  {
+    "id": 198,
+    "question": "Quel prophète est connu pour sa patience ?",
+    "answers": [
+      "Ayoub",
+      "Yusuf",
+      "Dawud",
+      "Lut"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ayoub est un exemple de patience."
+  },
+  {
+    "id": 199,
+    "question": "Quel est le mois du jeûne obligatoire ?",
+    "answers": [
+      "Rajab",
+      "Chaaban",
+      "Ramadan",
+      "Dhul Hijja"
+    ],
+    "correctIndex": 2,
+    "explanation": "Le jeûne obligatoire est celui de Ramadan."
+  },
+  {
+    "id": 200,
+    "question": "Le jeûne est-il rompu si on mange par oubli ?",
+    "answers": [
+      "Oui",
+      "Non",
+      "Toujours",
+      "Jamais"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manger par oubli n’annule pas le jeûne."
+  }
+]
